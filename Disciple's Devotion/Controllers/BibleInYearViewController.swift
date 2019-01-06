@@ -49,7 +49,7 @@ class BibleInYearViewController: UIViewController, UITableViewDataSource, UITabl
                     Global.shared.biblePlan.append(biblePlan)
                 }
                 PersistenceService.saveContext()
-            } catch let _ as NSError {
+            } catch {
                 raiseAlert(title: "ERROR", notification: "Unable to get the plan")
             }
         } else {

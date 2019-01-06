@@ -19,6 +19,7 @@
 		025F3E7321E0E8EC0038339F /* BiblePlan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F3E7121E0E8EC0038339F /* BiblePlan+CoreDataProperties.swift */; };
 		025F3E7721E227B20038339F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F3E7621E227B20038339F /* Theme.swift */; };
 		025F3E7921E228550038339F /* Courier.dfont in Resources */ = {isa = PBXBuildFile; fileRef = 025F3E7821E2281E0038339F /* Courier.dfont */; };
+		025F3E7B21E24E1D0038339F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 025F3E7A21E24E1D0038339F /* README.md */; };
 		026CCA1521CA864800549E0F /* DailyVerseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA1421CA864800549E0F /* DailyVerseViewController.swift */; };
 		026CCA1C21CA8A9E00549E0F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA1B21CA8A9E00549E0F /* Global.swift */; };
 		026CCA2021CA8B2900549E0F /* DiscipleDevotion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA1E21CA8B2900549E0F /* DiscipleDevotion.xcdatamodeld */; };
@@ -62,6 +63,7 @@
 		025F3E7121E0E8EC0038339F /* BiblePlan+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BiblePlan+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		025F3E7621E227B20038339F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		025F3E7821E2281E0038339F /* Courier.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; name = Courier.dfont; path = ../../../../../../../../../../System/Library/Fonts/Courier.dfont; sourceTree = "<group>"; };
+		025F3E7A21E24E1D0038339F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		026CCA1421CA864800549E0F /* DailyVerseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVerseViewController.swift; sourceTree = "<group>"; };
 		026CCA1B21CA8A9E00549E0F /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		026CCA1F21CA8B2900549E0F /* DiscipleDevotion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiscipleDevotion.xcdatamodel; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				02282FE621C2745700C21E40 /* LaunchScreen.storyboard */,
 				02282FE921C2745700C21E40 /* Info.plist */,
 				02282FEF21C27B6F00C21E40 /* Main.storyboard */,
+				025F3E7A21E24E1D0038339F /* README.md */,
 			);
 			path = "Disciple's Devotion";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				02D42A1721DE26A2003D3955 /* plan.json in Resources */,
 				02282FF021C27B6F00C21E40 /* Main.storyboard in Resources */,
 				02282FE821C2745700C21E40 /* LaunchScreen.storyboard in Resources */,
+				025F3E7B21E24E1D0038339F /* README.md in Resources */,
 				028C142A21DC99F6008532FC /* BibleInYearCell.xib in Resources */,
 				02282FE521C2745700C21E40 /* Assets.xcassets in Resources */,
 				025F3E7921E228550038339F /* Courier.dfont in Resources */,
@@ -462,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.phizercost.Disciple-s-Devotion";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phizercost.DisciplesDevotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.phizercost.Disciple-s-Devotion";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phizercost.DisciplesDevotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
