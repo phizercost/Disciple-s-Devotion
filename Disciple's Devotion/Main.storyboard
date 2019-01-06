@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oRS-gy-vaK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Disciple's Devotion-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DDViewController" customModule="Disciple_s_Devotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBW-Lq-2GB" userLabel="MainLabel">
+                                <rect key="frame" x="10" y="84" width="355" height="45"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="&quot;If anyone would come after me, let him deny himself and take up his cross and follow me.&quot;">
+                                        <attributes>
+                                            <font key="NSFont" size="15" name="Courier-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Xa3-oF-gjn">
+                                <rect key="frame" x="-16.5" y="169" width="408" height="150"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Jyx-ad-BNm">
+                                        <rect key="frame" x="0.0" y="0.0" width="408" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys4-Hy-4D9" customClass="RoundButton" customModule="Disciple_s_Devotion" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="179.5" height="50"/>
+                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                                <state key="normal" title="Daily Verse" image="vd"/>
+                                                <connections>
+                                                    <segue destination="DmQ-uk-0VE" kind="show" id="jPm-gg-bJQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZ4-bv-xPt" customClass="RoundButton" customModule="Disciple_s_Devotion" customModuleProvider="target">
+                                                <rect key="frame" x="179.5" y="0.0" width="228.5" height="50"/>
+                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                                <state key="normal" title="Bible in a Year" image="bbiy"/>
+                                                <connections>
+                                                    <segue destination="9yO-hl-mDN" kind="show" id="KMv-Tp-fXb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UEx-hH-bx0">
+                                        <rect key="frame" x="0.0" y="50" width="408" height="50"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="taZ-mP-nbm">
+                                        <rect key="frame" x="0.0" y="100" width="408" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHk-Mo-p44" customClass="RoundButton" customModule="Disciple_s_Devotion" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="210.5" height="50"/>
+                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                                <state key="normal" title="Quick Search" image="qs"/>
+                                                <connections>
+                                                    <segue destination="IDT-Jm-Uix" kind="show" id="3eg-db-lqF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL1-9d-n2X" customClass="RoundButton" customModule="Disciple_s_Devotion" customModuleProvider="target">
+                                                <rect key="frame" x="210.5" y="0.0" width="197.5" height="50"/>
+                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                                <state key="normal" title="Bible Study" image="bs"/>
+                                                <connections>
+                                                    <segue destination="c0o-d3-x26" kind="show" id="fzw-Oe-BFP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Xa3-oF-gjn" secondAttribute="bottom" constant="10" id="9Ly-dy-V7I"/>
+                            <constraint firstItem="fBW-Lq-2GB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="GsG-me-6x2"/>
+                            <constraint firstItem="Xa3-oF-gjn" firstAttribute="top" secondItem="fBW-Lq-2GB" secondAttribute="bottom" constant="40" id="KYB-7A-Eom"/>
+                            <constraint firstItem="Xa3-oF-gjn" firstAttribute="centerX" secondItem="fBW-Lq-2GB" secondAttribute="centerX" id="P5g-cE-iR7"/>
+                            <constraint firstItem="fBW-Lq-2GB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Z03-ah-gjo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="fBW-Lq-2GB" secondAttribute="leading" constant="-10" id="bUb-m7-6eE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fBW-Lq-2GB" secondAttribute="trailing" constant="10" id="fPx-uZ-YTB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Disciple's Devotion" id="ZeY-eG-Seh"/>
+                    <connections>
+                        <outlet property="bibleStudy" destination="qL1-9d-n2X" id="L0y-fJ-48a"/>
+                        <outlet property="bibleYear" destination="rZ4-bv-xPt" id="JKF-r3-nax"/>
+                        <outlet property="dailyVerse" destination="ys4-Hy-4D9" id="YHI-4V-fIm"/>
+                        <outlet property="quickSearch" destination="zHk-Mo-p44" id="ruY-Fe-HjV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="-107"/>
+        </scene>
+        <!--Daily Verse View Controller-->
+        <scene sceneID="BC8-k2-7dQ">
+            <objects>
+                <viewController id="DmQ-uk-0VE" customClass="DailyVerseViewController" customModule="Disciple_s_Devotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a5f-Lz-QQn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAQ-LY-VD9">
+                                <rect key="frame" x="10" y="365.5" width="355" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2az-MY-eZi">
+                                <rect key="frame" x="187.5" y="375.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="QHN-WL-IpI">
+                                <rect key="frame" x="177.5" y="355.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Verse" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="342-Ht-BGo">
+                                <rect key="frame" x="78.5" y="176" width="218" height="33"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vAQ-LY-VD9" firstAttribute="centerY" secondItem="2GR-M0-4Rf" secondAttribute="centerY" id="0e7-sQ-lqY"/>
+                            <constraint firstItem="2GR-M0-4Rf" firstAttribute="trailing" secondItem="vAQ-LY-VD9" secondAttribute="trailing" constant="10" id="EeT-rn-zLY"/>
+                            <constraint firstItem="vAQ-LY-VD9" firstAttribute="centerX" secondItem="2GR-M0-4Rf" secondAttribute="centerX" id="PZZ-ak-ITr"/>
+                            <constraint firstItem="2az-MY-eZi" firstAttribute="centerX" secondItem="vAQ-LY-VD9" secondAttribute="centerX" id="TgB-PW-85v"/>
+                            <constraint firstItem="QHN-WL-IpI" firstAttribute="centerY" secondItem="2GR-M0-4Rf" secondAttribute="centerY" id="V0C-ts-E4E"/>
+                            <constraint firstItem="2GR-M0-4Rf" firstAttribute="leading" secondItem="vAQ-LY-VD9" secondAttribute="leading" constant="-10" id="XIf-hL-9VO"/>
+                            <constraint firstItem="342-Ht-BGo" firstAttribute="top" secondItem="2GR-M0-4Rf" secondAttribute="top" constant="112" id="hAh-ep-Ffe"/>
+                            <constraint firstItem="342-Ht-BGo" firstAttribute="centerX" secondItem="QHN-WL-IpI" secondAttribute="centerX" id="qqv-Dy-78b"/>
+                            <constraint firstItem="2az-MY-eZi" firstAttribute="top" secondItem="vAQ-LY-VD9" secondAttribute="bottom" constant="10" id="rwF-KS-NhP"/>
+                            <constraint firstItem="QHN-WL-IpI" firstAttribute="centerX" secondItem="2GR-M0-4Rf" secondAttribute="centerX" id="sC6-Lx-6Uc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2GR-M0-4Rf"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="QHN-WL-IpI" id="X2p-IV-lNo"/>
+                        <outlet property="dailyVerseLbl" destination="vAQ-LY-VD9" id="zVw-On-qc8"/>
+                        <outlet property="referenceLbl" destination="2az-MY-eZi" id="Wk2-zj-max"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mo5-6U-DGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2113" y="-1310"/>
+        </scene>
+        <!--Quick Search View Controller-->
+        <scene sceneID="lBo-CU-4mt">
+            <objects>
+                <viewController id="IDT-Jm-Uix" customClass="QuickSearchViewController" customModule="Disciple_s_Devotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FoL-VA-hUy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="zWC-oj-1HT">
+                                <rect key="frame" x="0.0" y="324" width="375" height="19"/>
+                            </activityIndicatorView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a keyword to search for" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="DTV-hc-Xay">
+                                <rect key="frame" x="0.0" y="74" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9Kb-rp-6AH"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ReI-FV-6sX">
+                                <rect key="frame" x="0.0" y="134" width="375" height="533"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchVerseCell" textLabel="JV7-CD-FfP" detailTextLabel="Vki-gH-Xnz" style="IBUITableViewCellStyleSubtitle" id="deP-cD-9aX" customClass="SearchTableViewCell" customModule="Disciple_s_Devotion" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="deP-cD-9aX" id="xdp-3v-JsA" customClass="SearchTableViewCell" customModule="Disciple_s_Devotion" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JV7-CD-FfP">
+                                                    <rect key="frame" x="15" y="9.5" width="39.5" height="13"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vki-gH-Xnz">
+                                                    <rect key="frame" x="15" y="25" width="38.5" height="8"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Courier-Oblique" family="Courier" pointSize="8"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DTV-hc-Xay" firstAttribute="trailing" secondItem="sTO-ww-vXz" secondAttribute="trailing" id="9ms-Mz-SeU"/>
+                            <constraint firstItem="sTO-ww-vXz" firstAttribute="trailing" secondItem="ReI-FV-6sX" secondAttribute="trailing" id="AEA-KV-vgW"/>
+                            <constraint firstItem="sTO-ww-vXz" firstAttribute="trailing" secondItem="DTV-hc-Xay" secondAttribute="trailing" id="Awd-c5-duo"/>
+                            <constraint firstItem="zWC-oj-1HT" firstAttribute="trailing" secondItem="DTV-hc-Xay" secondAttribute="trailing" id="BAy-CH-DzO"/>
+                            <constraint firstItem="ReI-FV-6sX" firstAttribute="leading" secondItem="sTO-ww-vXz" secondAttribute="leading" id="BKI-tV-0zP"/>
+                            <constraint firstItem="zWC-oj-1HT" firstAttribute="leading" secondItem="DTV-hc-Xay" secondAttribute="leading" id="IDQ-ht-RCT"/>
+                            <constraint firstItem="sTO-ww-vXz" firstAttribute="bottom" secondItem="ReI-FV-6sX" secondAttribute="bottom" id="KKb-gS-aHq"/>
+                            <constraint firstItem="ReI-FV-6sX" firstAttribute="top" secondItem="DTV-hc-Xay" secondAttribute="bottom" constant="10" id="Pnr-fD-jNM"/>
+                            <constraint firstItem="DTV-hc-Xay" firstAttribute="leading" secondItem="sTO-ww-vXz" secondAttribute="leading" id="SOJ-n7-jMk"/>
+                            <constraint firstItem="zWC-oj-1HT" firstAttribute="centerY" secondItem="FoL-VA-hUy" secondAttribute="centerY" id="bte-fX-XKd"/>
+                            <constraint firstItem="DTV-hc-Xay" firstAttribute="top" secondItem="sTO-ww-vXz" secondAttribute="top" constant="10" id="cyG-w3-xuP"/>
+                            <constraint firstItem="sTO-ww-vXz" firstAttribute="bottom" secondItem="zWC-oj-1HT" secondAttribute="bottom" constant="324" id="f2b-0P-Ndi"/>
+                            <constraint firstItem="DTV-hc-Xay" firstAttribute="leading" secondItem="sTO-ww-vXz" secondAttribute="leading" id="fpC-Je-0Jw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sTO-ww-vXz"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="zWC-oj-1HT" id="3RW-18-JqC"/>
+                        <outlet property="tableViewResults" destination="ReI-FV-6sX" id="59I-Rh-lyi"/>
+                        <outlet property="txtSearchBar" destination="DTV-hc-Xay" id="Nvh-yZ-svC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4O-B0-fz4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2113" y="-608"/>
+        </scene>
+        <!--Bible Study Collection View Controller-->
+        <scene sceneID="FwG-pF-ZfN">
+            <objects>
+                <collectionViewController id="c0o-d3-x26" customClass="BibleStudyCollectionViewController" customModule="Disciple_s_Devotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="NRM-cd-2wf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ki7-dj-Ykc">
+                            <size key="itemSize" width="160" height="160"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <activityIndicatorView key="backgroundView" hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" id="DP8-DC-9F7">
+                            <rect key="frame" x="0.0" y="-64" width="375" height="667"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BSCollectionViewCell" id="Atf-q3-1A7" userLabel="BibleStudiesCollectionViewCell" customClass="BibleStudiesCollectionViewCell" customModule="Disciple_s_Devotion" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECu-x4-7eV">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ERs-uN-pFL">
+                                            <rect key="frame" x="70" y="70" width="20" height="20"/>
+                                        </activityIndicatorView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdu-le-Yrg" userLabel="Sections">
+                                            <rect key="frame" x="0.0" y="141" width="140" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="8"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="ERs-uN-pFL" firstAttribute="centerX" secondItem="Atf-q3-1A7" secondAttribute="centerX" id="Weg-87-pvH"/>
+                                    <constraint firstItem="ERs-uN-pFL" firstAttribute="centerY" secondItem="Atf-q3-1A7" secondAttribute="centerY" id="XP5-64-Zed"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="activityIndicator" destination="ERs-uN-pFL" id="Glm-l5-WYZ"/>
+                                    <outlet property="imageView" destination="ECu-x4-7eV" id="a0F-dw-PU5"/>
+                                    <outlet property="sectionsLbl" destination="vdu-le-Yrg" id="WCO-ew-gyL"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="c0o-d3-x26" id="Idc-lO-Bwc"/>
+                            <outlet property="delegate" destination="c0o-d3-x26" id="NPz-iX-c1D"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <outlet property="collectionViewActivityIndicator" destination="DP8-DC-9F7" id="Seo-y9-dtZ"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9t1-Rp-3k7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2113" y="67"/>
+        </scene>
+        <!--Bible In Year View Controller-->
+        <scene sceneID="R62-4e-etk">
+            <objects>
+                <viewController id="9yO-hl-mDN" customClass="BibleInYearViewController" customModule="Disciple_s_Devotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qk0-xA-zOJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="GBB-BW-Dz5">
+                                <rect key="frame" x="112" y="84" width="151" height="2.5"/>
+                                <color key="progressTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="trackTintColor" red="0.16682512269999999" green="0.80533695969999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Va-4G-0eV">
+                                <rect key="frame" x="0.0" y="105.5" width="375" height="526.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftr-Sb-06r">
+                                <rect key="frame" x="132.5" y="642" width="110" height="25"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="13"/>
+                                <state key="normal" title="Reset Progress">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ftr-Sb-06r" firstAttribute="centerX" secondItem="9Va-4G-0eV" secondAttribute="centerX" id="7T2-Cm-oyX"/>
+                            <constraint firstItem="9Va-4G-0eV" firstAttribute="leading" secondItem="H5n-q4-Xwy" secondAttribute="leading" id="Etl-9j-jFd"/>
+                            <constraint firstItem="H5n-q4-Xwy" firstAttribute="bottom" secondItem="ftr-Sb-06r" secondAttribute="bottom" id="KMi-B9-BUP"/>
+                            <constraint firstItem="GBB-BW-Dz5" firstAttribute="leading" secondItem="Qk0-xA-zOJ" secondAttribute="leadingMargin" constant="96" id="KPZ-Nj-kBa"/>
+                            <constraint firstItem="9Va-4G-0eV" firstAttribute="top" secondItem="GBB-BW-Dz5" secondAttribute="bottom" constant="20" id="LBS-Wc-7C9"/>
+                            <constraint firstItem="GBB-BW-Dz5" firstAttribute="top" secondItem="H5n-q4-Xwy" secondAttribute="top" constant="20" id="WWW-gI-7qf"/>
+                            <constraint firstItem="9Va-4G-0eV" firstAttribute="centerX" secondItem="H5n-q4-Xwy" secondAttribute="centerX" id="Y69-Vz-GFh"/>
+                            <constraint firstItem="ftr-Sb-06r" firstAttribute="top" secondItem="9Va-4G-0eV" secondAttribute="bottom" constant="10" id="a4C-wN-aqj"/>
+                            <constraint firstItem="GBB-BW-Dz5" firstAttribute="centerX" secondItem="9Va-4G-0eV" secondAttribute="centerX" id="dIX-nN-RJR"/>
+                            <constraint firstItem="H5n-q4-Xwy" firstAttribute="trailing" secondItem="9Va-4G-0eV" secondAttribute="trailing" id="hN9-BV-ELo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="H5n-q4-Xwy"/>
+                    </view>
+                    <connections>
+                        <outlet property="ltbList" destination="9Va-4G-0eV" id="6dy-cm-Ygh"/>
+                        <outlet property="progressView" destination="GBB-BW-Dz5" id="KTY-yt-C5e"/>
+                        <outlet property="resetButton" destination="ftr-Sb-06r" id="WHv-g8-y7m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hk0-kI-V7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2113" y="1239"/>
+        </scene>
+        <!--Day Plan View Controller-->
+        <scene sceneID="NCw-Qo-Ail">
+            <objects>
+                <viewController storyboardIdentifier="DayPlanViewController" id="IGP-rb-0ev" customClass="DayPlanViewController" customModule="Disciple_s_Devotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="98w-TM-zKS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="HYv-pr-rJk">
+                                <rect key="frame" x="177.5" y="333.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9F5-tD-JDx">
+                                <rect key="frame" x="5" y="25" width="365" height="637"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HYv-pr-rJk" firstAttribute="centerY" secondItem="aQg-D7-zEy" secondAttribute="centerY" id="AbL-XS-h6E"/>
+                            <constraint firstItem="9F5-tD-JDx" firstAttribute="leading" secondItem="aQg-D7-zEy" secondAttribute="leading" constant="5" id="BwY-Gr-Pih"/>
+                            <constraint firstItem="HYv-pr-rJk" firstAttribute="centerX" secondItem="aQg-D7-zEy" secondAttribute="centerX" id="F3S-eM-k7S"/>
+                            <constraint firstItem="9F5-tD-JDx" firstAttribute="top" secondItem="aQg-D7-zEy" secondAttribute="top" constant="5" id="lnB-0E-UsB"/>
+                            <constraint firstItem="aQg-D7-zEy" firstAttribute="bottom" secondItem="9F5-tD-JDx" secondAttribute="bottom" constant="5" id="n5t-SO-Fra"/>
+                            <constraint firstItem="aQg-D7-zEy" firstAttribute="trailing" secondItem="9F5-tD-JDx" secondAttribute="trailing" constant="5" id="qP4-iE-lUW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aQg-D7-zEy"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="HYv-pr-rJk" id="P6J-PK-pls"/>
+                        <outlet property="txtView" destination="9F5-tD-JDx" id="wvK-1M-2O8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gfa-80-8q9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3140" y="1238"/>
+        </scene>
+        <!--Lesson Collection View Controller-->
+        <scene sceneID="lz7-SF-Z7f">
+            <objects>
+                <collectionViewController storyboardIdentifier="LessonCollectionViewController" id="Wyw-33-JGl" customClass="LessonCollectionViewController" customModule="Disciple_s_Devotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Qzb-hD-0PZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TtJ-iN-GEL">
+                            <size key="itemSize" width="160" height="160"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <activityIndicatorView key="backgroundView" hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="Awl-pI-HcI">
+                            <rect key="frame" x="0.0" y="-20" width="375" height="667"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LCollectionViewCell" id="wc7-Jy-VZj" customClass="LessonCollectionViewCell" customModule="Disciple_s_Devotion" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Vk-EQ-h6Q">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="kW1-WC-1TS">
+                                            <rect key="frame" x="70" y="70" width="20" height="20"/>
+                                        </activityIndicatorView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOv-hQ-1CT">
+                                            <rect key="frame" x="0.0" y="133" width="160" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="8"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="kW1-WC-1TS" firstAttribute="centerY" secondItem="wc7-Jy-VZj" secondAttribute="centerY" id="OxS-kM-65o"/>
+                                    <constraint firstItem="kW1-WC-1TS" firstAttribute="centerX" secondItem="wc7-Jy-VZj" secondAttribute="centerX" id="VBg-Ic-mGd"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="activityIndicator" destination="kW1-WC-1TS" id="uek-1M-zXg"/>
+                                    <outlet property="imageView" destination="6Vk-EQ-h6Q" id="jB7-eL-xrI"/>
+                                    <outlet property="titleLbl" destination="YOv-hQ-1CT" id="0iv-xL-VYS"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Wyw-33-JGl" id="3Kn-Mg-MBx"/>
+                            <outlet property="delegate" destination="Wyw-33-JGl" id="pUJ-SN-NsK"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <outlet property="lessonActivityIndicator" destination="Awl-pI-HcI" id="vbO-YJ-ijt"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4s0-qh-PvC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3109.5999999999999" y="375.56221889055473"/>
+        </scene>
+        <!--Verse Detail View Controller-->
+        <scene sceneID="EFx-vE-Bwh">
+            <objects>
+                <viewController storyboardIdentifier="VerseDetailViewController" id="nwa-Ze-hwr" customClass="VerseDetailViewController" customModule="Disciple_s_Devotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3zs-hv-Uty">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ru4-dC-lUZ">
+                                <rect key="frame" x="2" y="333.5" width="371" height="20"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpS-Z6-FAY" userLabel="Reference">
+                                <rect key="frame" x="165" y="363.5" width="45.5" height="15"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ru4-dC-lUZ" firstAttribute="centerY" secondItem="QcS-Vu-haP" secondAttribute="centerY" id="30Q-6K-yy7"/>
+                            <constraint firstItem="QcS-Vu-haP" firstAttribute="trailing" secondItem="ru4-dC-lUZ" secondAttribute="trailing" constant="2" id="LXc-Uf-AhN"/>
+                            <constraint firstItem="ru4-dC-lUZ" firstAttribute="leading" secondItem="QcS-Vu-haP" secondAttribute="leading" constant="2" id="Onc-Sr-AxW"/>
+                            <constraint firstItem="mpS-Z6-FAY" firstAttribute="centerX" secondItem="ru4-dC-lUZ" secondAttribute="centerX" id="SNK-Po-Nvu"/>
+                            <constraint firstItem="mpS-Z6-FAY" firstAttribute="top" secondItem="ru4-dC-lUZ" secondAttribute="bottom" constant="10" id="o7f-YY-mH5"/>
+                            <constraint firstItem="ru4-dC-lUZ" firstAttribute="centerX" secondItem="QcS-Vu-haP" secondAttribute="centerX" id="o9y-qb-ihl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QcS-Vu-haP"/>
+                    </view>
+                    <connections>
+                        <outlet property="referenceLbl" destination="mpS-Z6-FAY" id="GqU-Yd-9gh"/>
+                        <outlet property="verseLble" destination="ru4-dC-lUZ" id="J39-tB-KVP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBT-Ad-cyD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2822" y="-370"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bij-LB-hBx">
+            <objects>
+                <navigationController id="oRS-gy-vaK" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="whN-SI-QiE">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6p7-RN-LKs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VoC-W0-12t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="-107"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bbiy" width="37.5" height="37.5"/>
+        <image name="bs" width="37.5" height="37.5"/>
+        <image name="qs" width="37.5" height="37.5"/>
+        <image name="vd" width="37.5" height="37.5"/>
+    </resources>
+</document>

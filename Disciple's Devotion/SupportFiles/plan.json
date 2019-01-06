@@ -1,0 +1,3903 @@
+{
+    "plan":[
+        {
+            "day":"1",
+            "references":[
+                "Genesis 1",
+                "Genesis 2",
+                "Genesis 3",
+                "Matthew 1",
+                "Matthew 2",
+                "Matthew 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"2",
+            "references":[
+                "Genesis 4",
+                "Genesis 5",
+                "Genesis 6",
+                "Matthew 4",
+                "Matthew 5",
+                "Matthew 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"3",
+            "references":[
+                "Genesis 7",
+                "Genesis 8",
+                "Genesis 9",
+                "Matthew 7",
+                "Matthew 8",
+                "Matthew 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"4",
+            "references":[
+                "Genesis 10",
+                "Genesis 11",
+                "Genesis 12",
+                "Matthew 10",
+                "Matthew 11",
+                "Matthew 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"5",
+            "references":[
+                "Genesis 13",
+                "Genesis 14",
+                "Genesis 15",
+                "Matthew 13",
+                "Matthew 14",
+                "Matthew 15"
+            ],
+            "status":false
+        },
+        {
+            "day":"6",
+            "references":[
+                "Genesis 16",
+                "Genesis 17",
+                "Genesis 18",
+                "Matthew 16",
+                "Matthew 17",
+                "Matthew 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"7",
+            "references":[
+                "Genesis 19",
+                "Genesis 20",
+                "Genesis 21",
+                "Matthew 19",
+                "Matthew 20",
+                "Matthew 21"
+            ],
+            "status":false
+        },
+        {
+            "day":"8",
+            "references":[
+                "Genesis 22",
+                "Genesis 23",
+                "Genesis 24",
+                "Matthew 22",
+                "Matthew 23",
+                "Matthew 24"
+            ],
+            "status":false
+        },
+        {
+            "day":"9",
+            "references":[
+                "Genesis 25",
+                "Genesis 26",
+                "Genesis 27",
+                "Matthew 25",
+                "Matthew 26",
+                "Matthew 27"
+            ],
+            "status":false
+        },
+        {
+            "day":"10",
+            "references":[
+                "Genesis 28",
+                "Genesis 29",
+                "Genesis 30",
+                "Matthew 28",
+                "Mark 1",
+                "Mark 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"11",
+            "references":[
+                "Genesis 31",
+                "Genesis 32",
+                "Genesis 33",
+                "Mark 3",
+                "Mark 4",
+                "Mark 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"12",
+            "references":[
+                "Genesis 34",
+                "Genesis 35",
+                "Genesis 36",
+                "Mark 6",
+                "Mark 7",
+                "Mark 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"13",
+            "references":[
+                "Genesis 37",
+                "Genesis 38",
+                "Genesis 39",
+                "Mark 9",
+                "Mark 10",
+                "Mark 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"14",
+            "references":[
+                "Genesis 40",
+                "Genesis 41",
+                "Genesis 42",
+                "Mark 12",
+                "Mark 13",
+                "Mark 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"15",
+            "references":[
+                "Genesis 43",
+                "Genesis 44",
+                "Genesis 45",
+                "Mark 15",
+                "Mark 16",
+                "Luke 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"16",
+            "references":[
+                "Genesis 46",
+                "Genesis 47",
+                "Genesis 48",
+                "Luke 2",
+                "Luke 3",
+                "Luke 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"17",
+            "references":[
+                "Genesis 49",
+                "Genesis 50",
+                "Exodus 1",
+                "Luke 5",
+                "Luke 6",
+                "Luke 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"18",
+            "references":[
+                "Exodus 2",
+                "Exodus 3",
+                "Exodus 4",
+                "Luke 8",
+                "Luke 9",
+                "Luke 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"19",
+            "references":[
+                "Exodus 5",
+                "Exodus 6",
+                "Exodus 7",
+                "Luke 11",
+                "Luke 12",
+                "Luke 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"20",
+            "references":[
+                "Exodus 8",
+                "Exodus 9",
+                "Exodus 10",
+                "Luke 14",
+                "Luke 15",
+                "Luke 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"21",
+            "references":[
+                "Exodus 11",
+                "Exodus 12",
+                "Exodus 13",
+                "Luke 17",
+                "Luke 18",
+                "Luke 19"
+            ],
+            "status":false
+        },
+        {
+            "day":"22",
+            "references":[
+                "Exodus 14",
+                "Exodus 15",
+                "Exodus 16",
+                "Luke 20",
+                "Luke 21",
+                "Luke 22"
+            ],
+            "status":false
+        },
+        {
+            "day":"23",
+            "references":[
+                "Exodus 17",
+                "Exodus 18",
+                "Exodus 19",
+                "Luke 23",
+                "Luke 24",
+                "John 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"24",
+            "references":[
+                "Exodus 20",
+                "Exodus 21",
+                "Exodus 22",
+                "John 2",
+                "John 3",
+                "John 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"25",
+            "references":[
+                "Exodus 23",
+                "Exodus 24",
+                "Exodus 25",
+                "John 5",
+                "John 6",
+                "John 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"26",
+            "references":[
+                "Exodus 26",
+                "Exodus 27",
+                "Exodus 28",
+                "John 8",
+                "John 9",
+                "John 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"27",
+            "references":[
+                "Exodus 29",
+                "Exodus 30",
+                "Exodus 31",
+                "John 11",
+                "John 12",
+                "John 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"28",
+            "references":[
+                "Exodus 32",
+                "Exodus 33",
+                "Exodus 34",
+                "John 14",
+                "John 15",
+                "John 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"29",
+            "references":[
+                "Exodus 35",
+                "Exodus 36",
+                "Exodus 37",
+                "John 17",
+                "John 18",
+                "John 19"
+            ],
+            "status":false
+        },
+        {
+            "day":"30",
+            "references":[
+                "Exodus 38",
+                "Exodus 39",
+                "Exodus 40",
+                "John 20",
+                "John 21",
+                "Acts 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"31",
+            "references":[
+                "Leviticus 1",
+                "Leviticus 2",
+                "Leviticus 3",
+                "Acts 2",
+                "Acts 3",
+                "Acts 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"32",
+            "references":[
+                "Leviticus 4",
+                "Leviticus 5",
+                "Leviticus 6",
+                "Acts 5",
+                "Acts 6",
+                "Acts 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"33",
+            "references":[
+                "Leviticus 7",
+                "Leviticus 8",
+                "Leviticus 9",
+                "Acts 8",
+                "Acts 9",
+                "Acts 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"34",
+            "references":[
+                "Leviticus 10",
+                "Leviticus 11",
+                "Leviticus 12",
+                "Acts 11",
+                "Acts 12",
+                "Acts 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"35",
+            "references":[
+                "Leviticus 13",
+                "Leviticus 14",
+                "Leviticus 15",
+                "Acts 14",
+                "Acts 15",
+                "Acts 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"36",
+            "references":[
+                "Leviticus 16",
+                "Leviticus 17",
+                "Leviticus 18",
+                "Acts 17",
+                "Acts 18",
+                "Acts 19"
+            ],
+            "status":false
+        },
+        {
+            "day":"37",
+            "references":[
+                "Leviticus 19",
+                "Leviticus 20",
+                "Leviticus 21",
+                "Acts 20",
+                "Acts 21",
+                "Acts 22"
+            ],
+            "status":false
+        },
+        {
+            "day":"38",
+            "references":[
+                "Leviticus 22",
+                "Leviticus 23",
+                "Leviticus 24",
+                "Acts 23",
+                "Acts 24",
+                "Acts 25"
+            ],
+            "status":false
+        },
+        {
+            "day":"39",
+            "references":[
+                "Leviticus 25",
+                "Leviticus 26",
+                "Leviticus 27",
+                "Acts 26",
+                "Acts 27",
+                "Acts 28"
+            ],
+            "status":false
+        },
+        {
+            "day":"40",
+            "references":[
+                "Numbers 1",
+                "Numbers 2",
+                "Numbers 3",
+                "Romans 1",
+                "Romans 2",
+                "Romans 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"41",
+            "references":[
+                "Numbers 4",
+                "Numbers 5",
+                "Numbers 6",
+                "Romans 4",
+                "Romans 5",
+                "Romans 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"42",
+            "references":[
+                "Numbers 7",
+                "Numbers 8",
+                "Numbers 9",
+                "Romans 7",
+                "Romans 8",
+                "Romans 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"43",
+            "references":[
+                "Numbers 10",
+                "Numbers 11",
+                "Numbers 12",
+                "Romans 10",
+                "Romans 11",
+                "Romans 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"44",
+            "references":[
+                "Numbers 13",
+                "Numbers 14",
+                "Numbers 15",
+                "Romans 13",
+                "Romans 14",
+                "Romans 15"
+            ],
+            "status":false
+        },
+        {
+            "day":"45",
+            "references":[
+                "Numbers 16",
+                "Numbers 17",
+                "Numbers 18",
+                "Romans 16",
+                "1 Corinthians 1",
+                "1 Corinthians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"46",
+            "references":[
+                "Numbers 19",
+                "Numbers 20",
+                "Numbers 21",
+                "1 Corinthians 3",
+                "1 Corinthians 4",
+                "1 Corinthians 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"47",
+            "references":[
+                "Numbers 22",
+                "Numbers 23",
+                "Numbers 24",
+                "1 Corinthians 6",
+                "1 Corinthians 7",
+                "1 Corinthians 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"48",
+            "references":[
+                "Numbers 25",
+                "Numbers 26",
+                "Numbers 27",
+                "1 Corinthians 9",
+                "1 Corinthians 10",
+                "1 Corinthians 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"49",
+            "references":[
+                "Numbers 28",
+                "Numbers 29",
+                "Numbers 30",
+                "1 Corinthians 12",
+                "1 Corinthians 13",
+                "1 Corinthians 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"50",
+            "references":[
+                "Numbers 31",
+                "Numbers 32",
+                "Numbers 33",
+                "1 Corinthians 15",
+                "1 Corinthians 16",
+                "2 Corinthians 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"51",
+            "references":[
+                "Numbers 34",
+                "Numbers 35",
+                "Numbers 36",
+                "2 Corinthians 2",
+                "2 Corinthians 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"52",
+            "references":[
+                "Deuteronomy 1",
+                "Deuteronomy 2",
+                "Deuteronomy 3",
+                "2 Corinthians 4",
+                "2 Corinthians 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"53",
+            "references":[
+                "Deuteronomy 4",
+                "Deuteronomy 5",
+                "Deuteronomy 6",
+                "2 Corinthians 6",
+                "2 Corinthians 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"54",
+            "references":[
+                "Deuteronomy 7",
+                "Deuteronomy 8",
+                "Deuteronomy 9",
+                "2 Corinthians 8",
+                "2 Corinthians 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"55",
+            "references":[
+                "Deuteronomy 10",
+                "Deuteronomy 11",
+                "Deuteronomy 12",
+                "2 Corinthians 10",
+                "2 Corinthians 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"56",
+            "references":[
+                "Deuteronomy 13",
+                "Deuteronomy 14",
+                "Deuteronomy 15",
+                "2 Corinthians 12",
+                "2 Corinthians 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"57",
+            "references":[
+                "Deuteronomy 16",
+                "Deuteronomy 17",
+                "Deuteronomy 18",
+                "Galatians 1",
+                "Galatians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"58",
+            "references":[
+                "Deuteronomy 19",
+                "Deuteronomy 20",
+                "Deuteronomy 21",
+                "Galatians 3",
+                "Galatians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"59",
+            "references":[
+                "Deuteronomy 22",
+                "Deuteronomy 23",
+                "Deuteronomy 24",
+                "Galatians 5",
+                "Galatians 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"60",
+            "references":[
+                "Deuteronomy 25",
+                "Deuteronomy 26",
+                "Deuteronomy 27",
+                "Ephesians 1",
+                "Ephesians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"61",
+            "references":[
+                "Deuteronomy 28",
+                "Deuteronomy 29",
+                "Deuteronomy 30",
+                "Ephesians 3",
+                "Ephesians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"62",
+            "references":[
+                "Deuteronomy 31",
+                "Deuteronomy 32",
+                "Deuteronomy 33",
+                "Ephesians 5",
+                "Ephesians 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"63",
+            "references":[
+                "Deuteronomy 34",
+                "Joshua 1",
+                "Joshua 2",
+                "Philippians 1",
+                "Philippians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"64",
+            "references":[
+                "Joshua 3",
+                "Joshua 4",
+                "Joshua 5",
+                "Philippians 3",
+                "Philippians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"65",
+            "references":[
+                "Joshua 6",
+                "Joshua 7",
+                "Joshua 8",
+                "Colossians 1",
+                "Colossians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"66",
+            "references":[
+                "Joshua 9",
+                "Joshua 10",
+                "Joshua 11",
+                "Colossians 3",
+                "Colossians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"67",
+            "references":[
+                "Joshua 12",
+                "Joshua 13",
+                "Joshua 14",
+                "1 Thessalonians 1",
+                "1 Thessalonians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"68",
+            "references":[
+                "Joshua 15",
+                "Joshua 16",
+                "Joshua 17",
+                "1 Thessalonians 3",
+                "1 Thessalonians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"69",
+            "references":[
+                "Joshua 18",
+                "Joshua 19",
+                "Joshua 20",
+                "1 Thessalonians 5",
+                "2 Thessalonians 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"70",
+            "references":[
+                "Joshua 21",
+                "Joshua 22",
+                "Joshua 23",
+                "2 Thessalonians 2",
+                "2 Thessalonians 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"71",
+            "references":[
+                "Joshua 24",
+                "Judges 1",
+                "Judges 2",
+                "1 Timothy 1",
+                "1 Timothy 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"72",
+            "references":[
+                "Judges 3",
+                "Judges 4",
+                "Judges 5",
+                "1 Timothy 3",
+                "1 Timothy 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"73",
+            "references":[
+                "Judges 6",
+                "Judges 7",
+                "Judges 8",
+                "1 Timothy 5",
+                "1 Timothy 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"74",
+            "references":[
+                "Judges 9",
+                "Judges 10",
+                "Judges 11",
+                "2 Timothy 1",
+                "2 Timothy 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"75",
+            "references":[
+                "Judges 12",
+                "Judges 13",
+                "Judges 14",
+                "2 Timothy 3",
+                "2 Timothy 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"76",
+            "references":[
+                "Judges 15",
+                "Judges 16",
+                "Judges 17",
+                "Titus 1",
+                "Titus 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"77",
+            "references":[
+                "Judges 18",
+                "Judges 19",
+                "Judges 20",
+                "Titus 3",
+                "Philemon 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"78",
+            "references":[
+                "Judges 21",
+                "Ruth 1",
+                "Ruth 2",
+                "Hebrews 1",
+                "Hebrews 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"79",
+            "references":[
+                "Ruth 3",
+                "Ruth 4",
+                "1 Samuel 1",
+                "Hebrews 3",
+                "Hebrews 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"80",
+            "references":[
+                "1 Samuel 2",
+                "1 Samuel 3",
+                "1 Samuel 4",
+                "Hebrews 5",
+                "Hebrews 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"81",
+            "references":[
+                "1 Samuel 5",
+                "1 Samuel 6",
+                "1 Samuel 7",
+                "Hebrews 7",
+                "Hebrews 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"82",
+            "references":[
+                "1 Samuel 8",
+                "1 Samuel 9",
+                "1 Samuel 10",
+                "Hebrews 9",
+                "Hebrews 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"83",
+            "references":[
+                "1 Samuel 11",
+                "1 Samuel 12",
+                "1 Samuel 13",
+                "Hebrews 11",
+                "Hebrews 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"84",
+            "references":[
+                "1 Samuel 14",
+                "1 Samuel 15",
+                "1 Samuel 16",
+                "Hebrews 13",
+                "James 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"85",
+            "references":[
+                "1 Samuel 17",
+                "1 Samuel 18",
+                "1 Samuel 19",
+                "James 2",
+                "James 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"86",
+            "references":[
+                "1 Samuel 20",
+                "1 Samuel 21",
+                "1 Samuel 22",
+                "James 4",
+                "James 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"87",
+            "references":[
+                "1 Samuel 23",
+                "1 Samuel 24",
+                "1 Samuel 25",
+                "1 Peter 1",
+                "1 Peter 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"88",
+            "references":[
+                "1 Samuel 26",
+                "1 Samuel 27",
+                "1 Samuel 28",
+                "1 Peter 3",
+                "1 Peter 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"89",
+            "references":[
+                "1 Samuel 29",
+                "1 Samuel 30",
+                "1 Samuel 31",
+                "1 Peter 5",
+                "2 Peter 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"90",
+            "references":[
+                "2 Samuel 1",
+                "2 Samuel 2",
+                "2 Samuel 3",
+                "2 Peter 2",
+                "2 Peter 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"91",
+            "references":[
+                "2 Samuel 4",
+                "2 Samuel 5",
+                "2 Samuel 6",
+                "1 John 1",
+                "1 John 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"92",
+            "references":[
+                "2 Samuel 7",
+                "2 Samuel 8",
+                "2 Samuel 9",
+                "1 John 3",
+                "1 John 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"93",
+            "references":[
+                "2 Samuel 10",
+                "2 Samuel 11",
+                "2 Samuel 12",
+                "1 John 5",
+                "2 John 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"94",
+            "references":[
+                "2 Samuel 13",
+                "2 Samuel 14",
+                "2 Samuel 15",
+                "3 John 1",
+                "Jude 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"95",
+            "references":[
+                "2 Samuel 16",
+                "2 Samuel 17",
+                "2 Samuel 18",
+                "Revelation 1",
+                "Revelation 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"96",
+            "references":[
+                "2 Samuel 19",
+                "2 Samuel 20",
+                "2 Samuel 21",
+                "Revelation 3",
+                "Revelation 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"97",
+            "references":[
+                "2 Samuel 22",
+                "2 Samuel 23",
+                "2 Samuel 24",
+                "Revelation 5",
+                "Revelation 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"98",
+            "references":[
+                "1 Kings 1",
+                "1 Kings 2",
+                "1 Kings 3",
+                "Revelation 7",
+                "Revelation 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"99",
+            "references":[
+                "1 Kings 4",
+                "1 Kings 5",
+                "1 Kings 6",
+                "Revelation 9",
+                "Revelation 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"100",
+            "references":[
+                "1 Kings 7",
+                "1 Kings 8",
+                "1 Kings 9",
+                "Revelation 11",
+                "Revelation 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"101",
+            "references":[
+                "1 Kings 10",
+                "1 Kings 11",
+                "1 Kings 12",
+                "Revelation 13",
+                "Revelation 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"102",
+            "references":[
+                "1 Kings 13",
+                "1 Kings 14",
+                "1 Kings 15",
+                "Revelation 15",
+                "Revelation 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"103",
+            "references":[
+                "1 Kings 16",
+                "1 Kings 17",
+                "1 Kings 18",
+                "Revelation 17",
+                "Revelation 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"104",
+            "references":[
+                "1 Kings 19",
+                "1 Kings 20",
+                "1 Kings 21",
+                "Revelation 19",
+                "Revelation 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"105",
+            "references":[
+                "1 Kings 22",
+                "2 Kings 1",
+                "2 Kings 2",
+                "Revelation 21",
+                "Revelation 22"
+            ],
+            "status":false
+        },
+        {
+            "day":"106",
+            "references":[
+                "2 Kings 3",
+                "2 Kings 4",
+                "2 Kings 5",
+                "Matthew 1",
+                "Matthew 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"107",
+            "references":[
+                "2 Kings 6",
+                "2 Kings 7",
+                "2 Kings 8",
+                "Matthew 3",
+                "Matthew 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"108",
+            "references":[
+                "2 Kings 9",
+                "2 Kings 10",
+                "2 Kings 11",
+                "Matthew 5",
+                "Matthew 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"109",
+            "references":[
+                "2 Kings 12",
+                "2 Kings 13",
+                "2 Kings 14",
+                "Matthew 7",
+                "Matthew 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"110",
+            "references":[
+                "2 Kings 15",
+                "2 Kings 16",
+                "2 Kings 17",
+                "Matthew 9",
+                "Matthew 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"111",
+            "references":[
+                "2 Kings 18",
+                "2 Kings 19",
+                "2 Kings 20",
+                "Matthew 11",
+                "Matthew 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"112",
+            "references":[
+                "2 Kings 21",
+                "2 Kings 22",
+                "2 Kings 23",
+                "Matthew 13",
+                "Matthew 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"113",
+            "references":[
+                "2 Kings 24",
+                "2 Kings 25",
+                "1 Chronicles 1",
+                "Matthew 15",
+                "Matthew 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"114",
+            "references":[
+                "1 Chronicles 2",
+                "1 Chronicles 3",
+                "1 Chronicles 4",
+                "Matthew 17",
+                "Matthew 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"115",
+            "references":[
+                "1 Chronicles 5",
+                "1 Chronicles 6",
+                "1 Chronicles 7",
+                "Matthew 19",
+                "Matthew 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"116",
+            "references":[
+                "1 Chronicles 8",
+                "1 Chronicles 9",
+                "1 Chronicles 10",
+                "Matthew 21",
+                "Matthew 22"
+            ],
+            "status":false
+        },
+        {
+            "day":"117",
+            "references":[
+                "1 Chronicles 11",
+                "1 Chronicles 12",
+                "1 Chronicles 13",
+                "Matthew 23",
+                "Matthew 24"
+            ],
+            "status":false
+        },
+        {
+            "day":"118",
+            "references":[
+                "1 Chronicles 14",
+                "1 Chronicles 15",
+                "1 Chronicles 16",
+                "Matthew 25",
+                "Matthew 26"
+            ],
+            "status":false
+        },
+        {
+            "day":"119",
+            "references":[
+                "1 Chronicles 17",
+                "1 Chronicles 18",
+                "1 Chronicles 19",
+                "Matthew 27",
+                "Matthew 28"
+            ],
+            "status":false
+        },
+        {
+            "day":"120",
+            "references":[
+                "1 Chronicles 20",
+                "1 Chronicles 21",
+                "1 Chronicles 22",
+                "Mark 1",
+                "Mark 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"121",
+            "references":[
+                "1 Chronicles 23",
+                "1 Chronicles 24",
+                "1 Chronicles 25",
+                "Mark 3",
+                "Mark 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"122",
+            "references":[
+                "1 Chronicles 26",
+                "1 Chronicles 27",
+                "1 Chronicles 28",
+                "Mark 5",
+                "Mark 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"123",
+            "references":[
+                "1 Chronicles 29",
+                "2 Chronicles 1",
+                "2 Chronicles 2",
+                "Mark 7",
+                "Mark 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"124",
+            "references":[
+                "2 Chronicles 3",
+                "2 Chronicles 4",
+                "2 Chronicles 5",
+                "Mark 9",
+                "Mark 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"125",
+            "references":[
+                "2 Chronicles 6",
+                "2 Chronicles 7",
+                "2 Chronicles 8",
+                "Mark 11",
+                "Mark 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"126",
+            "references":[
+                "2 Chronicles 9",
+                "2 Chronicles 10",
+                "2 Chronicles 11",
+                "Mark 13",
+                "Mark 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"127",
+            "references":[
+                "2 Chronicles 12",
+                "2 Chronicles 13",
+                "2 Chronicles 14",
+                "Mark 15",
+                "Mark 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"128",
+            "references":[
+                "2 Chronicles 15",
+                "2 Chronicles 16",
+                "2 Chronicles 17",
+                "Luke 1",
+                "Luke 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"129",
+            "references":[
+                "2 Chronicles 18",
+                "2 Chronicles 19",
+                "2 Chronicles 20",
+                "Luke 3",
+                "Luke 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"130",
+            "references":[
+                "2 Chronicles 21",
+                "2 Chronicles 22",
+                "2 Chronicles 23",
+                "Luke 5",
+                "Luke 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"131",
+            "references":[
+                "2 Chronicles 24",
+                "2 Chronicles 25",
+                "2 Chronicles 26",
+                "Luke 7",
+                "Luke 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"132",
+            "references":[
+                "2 Chronicles 27",
+                "2 Chronicles 28",
+                "2 Chronicles 29",
+                "Luke 9",
+                "Luke 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"133",
+            "references":[
+                "2 Chronicles 30",
+                "2 Chronicles 31",
+                "2 Chronicles 32",
+                "Luke 11",
+                "Luke 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"134",
+            "references":[
+                "2 Chronicles 33",
+                "2 Chronicles 34",
+                "2 Chronicles 35",
+                "Luke 13",
+                "Luke 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"135",
+            "references":[
+                "2 Chronicles 36",
+                "Ezra 1",
+                "Ezra 2",
+                "Luke 15",
+                "Luke 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"136",
+            "references":[
+                "Ezra 3",
+                "Ezra 4",
+                "Ezra 5",
+                "Luke 17",
+                "Luke 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"137",
+            "references":[
+                "Ezra 6",
+                "Ezra 7",
+                "Ezra 8",
+                "Luke 19",
+                "Luke 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"138",
+            "references":[
+                "Ezra 9",
+                "Ezra 10",
+                "Nehemiah 1",
+                "Luke 21",
+                "Luke 22"
+            ],
+            "status":false
+        },
+        {
+            "day":"139",
+            "references":[
+                "Nehemiah 2",
+                "Nehemiah 3",
+                "Nehemiah 4",
+                "Luke 23",
+                "Luke 24"
+            ],
+            "status":false
+        },
+        {
+            "day":"140",
+            "references":[
+                "Nehemiah 5",
+                "Nehemiah 6",
+                "Nehemiah 7",
+                "John 1",
+                "John 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"141",
+            "references":[
+                "Nehemiah 8",
+                "Nehemiah 9",
+                "Nehemiah 10",
+                "John 3",
+                "John 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"142",
+            "references":[
+                "Nehemiah 11",
+                "Nehemiah 12",
+                "Nehemiah 13",
+                "John 5",
+                "John 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"143",
+            "references":[
+                "Esther 1",
+                "Esther 2",
+                "Esther 3",
+                "John 7",
+                "John 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"144",
+            "references":[
+                "Esther 4",
+                "Esther 5",
+                "Esther 6",
+                "John 9",
+                "John 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"145",
+            "references":[
+                "Esther 7",
+                "Esther 8",
+                "Esther 9",
+                "John 11",
+                "John 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"146",
+            "references":[
+                "Esther 10",
+                "Job 1",
+                "Job 2",
+                "John 13",
+                "John 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"147",
+            "references":[
+                "Job 3",
+                "Job 4",
+                "Job 5",
+                "John 15",
+                "John 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"148",
+            "references":[
+                "Job 6",
+                "Job 7",
+                "Job 8",
+                "John 17",
+                "John 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"149",
+            "references":[
+                "Job 9",
+                "Job 10",
+                "Job 11",
+                "John 19",
+                "John 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"150",
+            "references":[
+                "Job 12",
+                "Job 13",
+                "Job 14",
+                "John 21",
+                "Acts 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"151",
+            "references":[
+                "Job 15",
+                "Job 16",
+                "Job 17",
+                "Acts 2",
+                "Acts 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"152",
+            "references":[
+                "Job 18",
+                "Job 19",
+                "Job 20",
+                "Acts 4",
+                "Acts 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"153",
+            "references":[
+                "Job 21",
+                "Job 22",
+                "Job 23",
+                "Acts 6",
+                "Acts 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"154",
+            "references":[
+                "Job 24",
+                "Job 25",
+                "Job 26",
+                "Acts 8",
+                "Acts 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"155",
+            "references":[
+                "Job 27",
+                "Job 28",
+                "Job 29",
+                "Acts 10",
+                "Acts 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"156",
+            "references":[
+                "Job 30",
+                "Job 31",
+                "Job 32",
+                "Acts 12",
+                "Acts 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"157",
+            "references":[
+                "Job 33",
+                "Job 34",
+                "Job 35",
+                "Acts 14",
+                "Acts 15"
+            ],
+            "status":false
+        },
+        {
+            "day":"158",
+            "references":[
+                "Job 36",
+                "Job 37",
+                "Job 38",
+                "Acts 16",
+                "Acts 17"
+            ],
+            "status":false
+        },
+        {
+            "day":"159",
+            "references":[
+                "Job 39",
+                "Job 40",
+                "Job 41",
+                "Acts 18",
+                "Acts 19"
+            ],
+            "status":false
+        },
+        {
+            "day":"160",
+            "references":[
+                "Job 42",
+                "Psalms 1",
+                "Psalms 2",
+                "Acts 20",
+                "Acts 21"
+            ],
+            "status":false
+        },
+        {
+            "day":"161",
+            "references":[
+                "Psalms 3",
+                "Psalms 4",
+                "Psalms 5",
+                "Acts 22",
+                "Acts 23"
+            ],
+            "status":false
+        },
+        {
+            "day":"162",
+            "references":[
+                "Psalms 6",
+                "Psalms 7",
+                "Psalms 8",
+                "Acts 24",
+                "Acts 25"
+            ],
+            "status":false
+        },
+        {
+            "day":"163",
+            "references":[
+                "Psalms 9",
+                "Psalms 10",
+                "Psalms 11",
+                "Acts 26",
+                "Acts 27"
+            ],
+            "status":false
+        },
+        {
+            "day":"164",
+            "references":[
+                "Psalms 12",
+                "Psalms 13",
+                "Psalms 14",
+                "Acts 28",
+                "Romans 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"165",
+            "references":[
+                "Psalms 15",
+                "Psalms 16",
+                "Psalms 17",
+                "Romans 2",
+                "Romans 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"166",
+            "references":[
+                "Psalms 18",
+                "Psalms 19",
+                "Psalms 20",
+                "Romans 4",
+                "Romans 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"167",
+            "references":[
+                "Psalms 21",
+                "Psalms 22",
+                "Psalms 23",
+                "Romans 6",
+                "Romans 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"168",
+            "references":[
+                "Psalms 24",
+                "Psalms 25",
+                "Psalms 26",
+                "Romans 8",
+                "Romans 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"169",
+            "references":[
+                "Psalms 27",
+                "Psalms 28",
+                "Psalms 29",
+                "Romans 10",
+                "Romans 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"170",
+            "references":[
+                "Psalms 30",
+                "Psalms 31",
+                "Psalms 32",
+                "Romans 12",
+                "Romans 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"171",
+            "references":[
+                "Psalms 33",
+                "Psalms 34",
+                "Psalms 35",
+                "Romans 14",
+                "Romans 15"
+            ],
+            "status":false
+        },
+        {
+            "day":"172",
+            "references":[
+                "Psalms 36",
+                "Psalms 37",
+                "Psalms 38",
+                "Romans 16",
+                "1 Corinthians 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"173",
+            "references":[
+                "Psalms 39",
+                "Psalms 40",
+                "Psalms 41",
+                "1 Corinthians 2",
+                "1 Corinthians 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"174",
+            "references":[
+                "Psalms 42",
+                "Psalms 43",
+                "Psalms 44",
+                "1 Corinthians 4",
+                "1 Corinthians 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"175",
+            "references":[
+                "Psalms 45",
+                "Psalms 46",
+                "Psalms 47",
+                "1 Corinthians 6",
+                "1 Corinthians 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"176",
+            "references":[
+                "Psalms 48",
+                "Psalms 49",
+                "Psalms 50",
+                "1 Corinthians 8",
+                "1 Corinthians 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"177",
+            "references":[
+                "Psalms 51",
+                "Psalms 52",
+                "Psalms 53",
+                "1 Corinthians 10",
+                "1 Corinthians 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"178",
+            "references":[
+                "Psalms 54",
+                "Psalms 55",
+                "Psalms 56",
+                "1 Corinthians 12",
+                "1 Corinthians 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"179",
+            "references":[
+                "Psalms 57",
+                "Psalms 58",
+                "Psalms 59",
+                "1 Corinthians 14",
+                "1 Corinthians 15"
+            ],
+            "status":false
+        },
+        {
+            "day":"180",
+            "references":[
+                "Psalms 60",
+                "Psalms 61",
+                "Psalms 62",
+                "1 Corinthians 16",
+                "2 Corinthians 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"181",
+            "references":[
+                "Psalms 63",
+                "Psalms 64",
+                "Psalms 65",
+                "2 Corinthians 2",
+                "2 Corinthians 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"182",
+            "references":[
+                "Psalms 66",
+                "Psalms 67",
+                "Psalms 68",
+                "2 Corinthians 4",
+                "2 Corinthians 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"183",
+            "references":[
+                "Psalms 69",
+                "Psalms 70",
+                "Psalms 71",
+                "2 Corinthians 6",
+                "2 Corinthians 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"184",
+            "references":[
+                "Psalms 72",
+                "Psalms 73",
+                "Psalms 74",
+                "2 Corinthians 8",
+                "2 Corinthians 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"185",
+            "references":[
+                "Psalms 75",
+                "Psalms 76",
+                "Psalms 77",
+                "2 Corinthians 10",
+                "2 Corinthians 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"186",
+            "references":[
+                "Psalms 78",
+                "Psalms 79",
+                "Psalms 80",
+                "2 Corinthians 12",
+                "2 Corinthians 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"187",
+            "references":[
+                "Psalms 81",
+                "Psalms 82",
+                "Psalms 83",
+                "Galatians 1",
+                "Galatians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"188",
+            "references":[
+                "Psalms 84",
+                "Psalms 85",
+                "Psalms 86",
+                "Galatians 3",
+                "Galatians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"189",
+            "references":[
+                "Psalms 87",
+                "Psalms 88",
+                "Psalms 89",
+                "Galatians 5",
+                "Galatians 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"190",
+            "references":[
+                "Psalms 90",
+                "Psalms 91",
+                "Psalms 92",
+                "Ephesians 1",
+                "Ephesians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"191",
+            "references":[
+                "Psalms 93",
+                "Psalms 94",
+                "Psalms 95",
+                "Ephesians 3",
+                "Ephesians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"192",
+            "references":[
+                "Psalms 96",
+                "Psalms 97",
+                "Psalms 98",
+                "Ephesians 5",
+                "Ephesians 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"193",
+            "references":[
+                "Psalms 99",
+                "Psalms 100",
+                "Psalms 101",
+                "Philippians 1",
+                "Philippians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"194",
+            "references":[
+                "Psalms 102",
+                "Psalms 103",
+                "Psalms 104",
+                "Philippians 3",
+                "Philippians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"195",
+            "references":[
+                "Psalms 105",
+                "Psalms 106",
+                "Psalms 107",
+                "Colossians 1",
+                "Colossians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"196",
+            "references":[
+                "Psalms 108",
+                "Psalms 109",
+                "Psalms 110",
+                "Colossians 3",
+                "Colossians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"197",
+            "references":[
+                "Psalms 111",
+                "Psalms 112",
+                "Psalms 113",
+                "1 Thessalonians 1",
+                "1 Thessalonians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"198",
+            "references":[
+                "Psalms 114",
+                "Psalms 115",
+                "Psalms 116",
+                "1 Thessalonians 3",
+                "1 Thessalonians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"199",
+            "references":[
+                "Psalms 117",
+                "Psalms 118",
+                "Psalms 119",
+                "1 Thessalonians 5",
+                "2 Thessalonians 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"200",
+            "references":[
+                "Psalms 120",
+                "Psalms 121",
+                "2 Thessalonians 2",
+                "2 Thessalonians 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"201",
+            "references":[
+                "Psalms 122",
+                "Psalms 123",
+                "1 Timothy 1",
+                "1 Timothy 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"202",
+            "references":[
+                "Psalms 124",
+                "Psalms 125",
+                "1 Timothy 3",
+                "1 Timothy 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"203",
+            "references":[
+                "Psalms 126",
+                "Psalms 127",
+                "1 Timothy 5",
+                "1 Timothy 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"204",
+            "references":[
+                "Psalms 128",
+                "Psalms 129",
+                "2 Timothy 1",
+                "2 Timothy 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"205",
+            "references":[
+                "Psalms 130",
+                "Psalms 131",
+                "2 Timothy 3",
+                "2 Timothy 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"206",
+            "references":[
+                "Psalms 132",
+                "Psalms 133",
+                "Titus 1",
+                "Titus 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"207",
+            "references":[
+                "Psalms 134",
+                "Psalms 135",
+                "Titus 3",
+                "Philemon 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"208",
+            "references":[
+                "Psalms 136",
+                "Psalms 137",
+                "Hebrews 1",
+                "Hebrews 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"209",
+            "references":[
+                "Psalms 138",
+                "Psalms 139",
+                "Hebrews 3",
+                "Hebrews 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"210",
+            "references":[
+                "Psalms 140",
+                "Psalms 141",
+                "Hebrews 5",
+                "Hebrews 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"211",
+            "references":[
+                "Psalms 142",
+                "Psalms 143",
+                "Hebrews 7",
+                "Hebrews 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"212",
+            "references":[
+                "Psalms 144",
+                "Psalms 145",
+                "Hebrews 9",
+                "Hebrews 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"213",
+            "references":[
+                "Psalms 146",
+                "Psalms 147",
+                "Hebrews 11",
+                "Hebrews 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"214",
+            "references":[
+                "Psalms 148",
+                "Psalms 149",
+                "Hebrews 13",
+                "James 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"215",
+            "references":[
+                "Psalms 150",
+                "Proverbs 1",
+                "James 2",
+                "James 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"216",
+            "references":[
+                "Proverbs 2",
+                "Proverbs 3",
+                "James 4",
+                "James 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"217",
+            "references":[
+                "Proverbs 4",
+                "Proverbs 5",
+                "1 Peter 1",
+                "1 Peter 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"218",
+            "references":[
+                "Proverbs 6",
+                "Proverbs 7",
+                "1 Peter 3",
+                "1 Peter 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"219",
+            "references":[
+                "Proverbs 8",
+                "Proverbs 9",
+                "1 Peter 5",
+                "2 Peter 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"220",
+            "references":[
+                "Proverbs 10",
+                "Proverbs 11",
+                "2 Peter 2",
+                "2 Peter 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"221",
+            "references":[
+                "Proverbs 12",
+                "Proverbs 13",
+                "1 John 1",
+                "1 John 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"222",
+            "references":[
+                "Proverbs 14",
+                "Proverbs 15",
+                "1 John 3",
+                "1 John 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"223",
+            "references":[
+                "Proverbs 16",
+                "Proverbs 17",
+                "1 John 5",
+                "2 John 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"224",
+            "references":[
+                "Proverbs 18",
+                "Proverbs 19",
+                "3 John 1",
+                "Jude 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"225",
+            "references":[
+                "Proverbs 20",
+                "Proverbs 21",
+                "Revelation 1",
+                "Revelation 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"226",
+            "references":[
+                "Proverbs 22",
+                "Proverbs 23",
+                "Revelation 3",
+                "Revelation 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"227",
+            "references":[
+                "Proverbs 24",
+                "Proverbs 25",
+                "Revelation 5",
+                "Revelation 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"228",
+            "references":[
+                "Proverbs 26",
+                "Proverbs 27",
+                "Revelation 7",
+                "Revelation 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"229",
+            "references":[
+                "Proverbs 28",
+                "Proverbs 29",
+                "Revelation 9",
+                "Revelation 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"230",
+            "references":[
+                "Proverbs 30",
+                "Proverbs 31",
+                "Revelation 11",
+                "Revelation 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"231",
+            "references":[
+                "Ecclesiastes 1",
+                "Ecclesiastes 2",
+                "Revelation 13",
+                "Revelation 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"232",
+            "references":[
+                "Ecclesiastes 3",
+                "Ecclesiastes 4",
+                "Revelation 15",
+                "Revelation 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"233",
+            "references":[
+                "Ecclesiastes 5",
+                "Ecclesiastes 6",
+                "Revelation 17",
+                "Revelation 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"234",
+            "references":[
+                "Ecclesiastes 7",
+                "Ecclesiastes 8",
+                "Revelation 19",
+                "Revelation 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"235",
+            "references":[
+                "Ecclesiastes 9",
+                "Ecclesiastes 10",
+                "Revelation 21",
+                "Revelation 22"
+            ],
+            "status":false
+        },
+        {
+            "day":"236",
+            "references":[
+                "Ecclesiastes 11",
+                "Ecclesiastes 12",
+                "Matthew 1",
+                "Matthew 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"237",
+            "references":[
+                "Song of Solomon 1",
+                "Song of Solomon 2",
+                "Matthew 3",
+                "Matthew 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"238",
+            "references":[
+                "Song of Solomon 3",
+                "Song of Solomon 4",
+                "Matthew 5",
+                "Matthew 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"239",
+            "references":[
+                "Song of Solomon 5",
+                "Song of Solomon 6",
+                "Matthew 7",
+                "Matthew 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"240",
+            "references":[
+                "Song of Solomon 7",
+                "Song of Solomon 8",
+                "Matthew 9",
+                "Matthew 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"241",
+            "references":[
+                "Isaiah 1",
+                "Isaiah 2",
+                "Matthew 11",
+                "Matthew 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"242",
+            "references":[
+                "Isaiah 3",
+                "Isaiah 4",
+                "Matthew 13",
+                "Matthew 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"243",
+            "references":[
+                "Isaiah 5",
+                "Isaiah 6",
+                "Matthew 15",
+                "Matthew 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"244",
+            "references":[
+                "Isaiah 7",
+                "Isaiah 8",
+                "Matthew 17",
+                "Matthew 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"245",
+            "references":[
+                "Isaiah 9",
+                "Isaiah 10",
+                "Matthew 19",
+                "Matthew 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"246",
+            "references":[
+                "Isaiah 11",
+                "Isaiah 12",
+                "Matthew 21",
+                "Matthew 22"
+            ],
+            "status":false
+        },
+        {
+            "day":"247",
+            "references":[
+                "Isaiah 13",
+                "Isaiah 14",
+                "Matthew 23",
+                "Matthew 24"
+            ],
+            "status":false
+        },
+        {
+            "day":"248",
+            "references":[
+                "Isaiah 15",
+                "Isaiah 16",
+                "Matthew 25",
+                "Matthew 26"
+            ],
+            "status":false
+        },
+        {
+            "day":"249",
+            "references":[
+                "Isaiah 17",
+                "Isaiah 18",
+                "Matthew 27",
+                "Matthew 28"
+            ],
+            "status":false
+        },
+        {
+            "day":"250",
+            "references":[
+                "Isaiah 19",
+                "Isaiah 20",
+                "Mark 1",
+                "Mark 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"251",
+            "references":[
+                "Isaiah 21",
+                "Isaiah 22",
+                "Mark 3",
+                "Mark 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"252",
+            "references":[
+                "Isaiah 23",
+                "Isaiah 24",
+                "Mark 5",
+                "Mark 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"253",
+            "references":[
+                "Isaiah 25",
+                "Isaiah 26",
+                "Mark 7",
+                "Mark 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"254",
+            "references":[
+                "Isaiah 27",
+                "Isaiah 28",
+                "Mark 9",
+                "Mark 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"255",
+            "references":[
+                "Isaiah 29",
+                "Isaiah 30",
+                "Mark 11",
+                "Mark 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"256",
+            "references":[
+                "Isaiah 31",
+                "Isaiah 32",
+                "Mark 13",
+                "Mark 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"257",
+            "references":[
+                "Isaiah 33",
+                "Isaiah 34",
+                "Mark 15",
+                "Mark 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"258",
+            "references":[
+                "Isaiah 35",
+                "Isaiah 36",
+                "Luke 1",
+                "Luke 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"259",
+            "references":[
+                "Isaiah 37",
+                "Isaiah 38",
+                "Luke 3",
+                "Luke 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"260",
+            "references":[
+                "Isaiah 39",
+                "Isaiah 40",
+                "Luke 5",
+                "Luke 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"261",
+            "references":[
+                "Isaiah 41",
+                "Isaiah 42",
+                "Luke 7",
+                "Luke 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"262",
+            "references":[
+                "Isaiah 43",
+                "Isaiah 44",
+                "Luke 9",
+                "Luke 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"263",
+            "references":[
+                "Isaiah 45",
+                "Isaiah 46",
+                "Luke 11",
+                "Luke 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"264",
+            "references":[
+                "Isaiah 47",
+                "Isaiah 48",
+                "Luke 13",
+                "Luke 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"265",
+            "references":[
+                "Isaiah 49",
+                "Isaiah 50",
+                "Luke 15",
+                "Luke 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"266",
+            "references":[
+                "Isaiah 51",
+                "Isaiah 52",
+                "Luke 17",
+                "Luke 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"267",
+            "references":[
+                "Isaiah 53",
+                "Isaiah 54",
+                "Luke 19",
+                "Luke 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"268",
+            "references":[
+                "Isaiah 55",
+                "Isaiah 56",
+                "Luke 21",
+                "Luke 22"
+            ],
+            "status":false
+        },
+        {
+            "day":"269",
+            "references":[
+                "Isaiah 57",
+                "Isaiah 58",
+                "Luke 23",
+                "Luke 24"
+            ],
+            "status":false
+        },
+        {
+            "day":"270",
+            "references":[
+                "Isaiah 59",
+                "Isaiah 60",
+                "John 1",
+                "John 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"271",
+            "references":[
+                "Isaiah 61",
+                "Isaiah 62",
+                "John 3",
+                "John 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"272",
+            "references":[
+                "Isaiah 63",
+                "Isaiah 64",
+                "John 5",
+                "John 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"273",
+            "references":[
+                "Isaiah 65",
+                "Isaiah 66",
+                "John 7",
+                "John 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"274",
+            "references":[
+                "Jeremiah 1",
+                "Jeremiah 2",
+                "John 9",
+                "John 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"275",
+            "references":[
+                "Jeremiah 3",
+                "Jeremiah 4",
+                "John 11",
+                "John 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"276",
+            "references":[
+                "Jeremiah 5",
+                "Jeremiah 6",
+                "John 13",
+                "John 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"277",
+            "references":[
+                "Jeremiah 7",
+                "Jeremiah 8",
+                "John 15",
+                "John 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"278",
+            "references":[
+                "Jeremiah 9",
+                "Jeremiah 10",
+                "John 17",
+                "John 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"279",
+            "references":[
+                "Jeremiah 11",
+                "Jeremiah 12",
+                "John 19",
+                "John 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"280",
+            "references":[
+                "Jeremiah 13",
+                "Jeremiah 14",
+                "John 21",
+                "Acts 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"281",
+            "references":[
+                "Jeremiah 15",
+                "Jeremiah 16",
+                "Acts 2",
+                "Acts 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"282",
+            "references":[
+                "Jeremiah 17",
+                "Jeremiah 18",
+                "Acts 4",
+                "Acts 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"283",
+            "references":[
+                "Jeremiah 19",
+                "Jeremiah 20",
+                "Acts 6",
+                "Acts 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"284",
+            "references":[
+                "Jeremiah 21",
+                "Jeremiah 22",
+                "Acts 8",
+                "Acts 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"285",
+            "references":[
+                "Jeremiah 23",
+                "Jeremiah 24",
+                "Acts 10",
+                "Acts 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"286",
+            "references":[
+                "Jeremiah 25",
+                "Jeremiah 26",
+                "Acts 12",
+                "Acts 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"287",
+            "references":[
+                "Jeremiah 27",
+                "Jeremiah 28",
+                "Acts 14",
+                "Acts 15"
+            ],
+            "status":false
+        },
+        {
+            "day":"288",
+            "references":[
+                "Jeremiah 29",
+                "Jeremiah 30",
+                "Acts 16",
+                "Acts 17"
+            ],
+            "status":false
+        },
+        {
+            "day":"289",
+            "references":[
+                "Jeremiah 31",
+                "Jeremiah 32",
+                "Acts 18",
+                "Acts 19"
+            ],
+            "status":false
+        },
+        {
+            "day":"290",
+            "references":[
+                "Jeremiah 33",
+                "Jeremiah 34",
+                "Acts 20",
+                "Acts 21"
+            ],
+            "status":false
+        },
+        {
+            "day":"291",
+            "references":[
+                "Jeremiah 35",
+                "Jeremiah 36",
+                "Acts 22",
+                "Acts 23"
+            ],
+            "status":false
+        },
+        {
+            "day":"292",
+            "references":[
+                "Jeremiah 37",
+                "Jeremiah 38",
+                "Acts 24",
+                "Acts 25"
+            ],
+            "status":false
+        },
+        {
+            "day":"293",
+            "references":[
+                "Jeremiah 39",
+                "Jeremiah 40",
+                "Acts 26",
+                "Acts 27"
+            ],
+            "status":false
+        },
+        {
+            "day":"294",
+            "references":[
+                "Jeremiah 41",
+                "Jeremiah 42",
+                "Acts 28",
+                "Romans 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"295",
+            "references":[
+                "Jeremiah 43",
+                "Jeremiah 44",
+                "Romans 2",
+                "Romans 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"296",
+            "references":[
+                "Jeremiah 45",
+                "Jeremiah 46",
+                "Romans 4",
+                "Romans 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"297",
+            "references":[
+                "Jeremiah 47",
+                "Jeremiah 48",
+                "Romans 6",
+                "Romans 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"298",
+            "references":[
+                "Jeremiah 49",
+                "Jeremiah 50",
+                "Romans 8",
+                "Romans 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"299",
+            "references":[
+                "Jeremiah 51",
+                "Jeremiah 52",
+                "Romans 10",
+                "Romans 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"300",
+            "references":[
+                "Lamentations 1",
+                "Lamentations 2",
+                "Romans 12",
+                "Romans 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"301",
+            "references":[
+                "Lamentations 3",
+                "Lamentations 4",
+                "Romans 14",
+                "Romans 15"
+            ],
+            "status":false
+        },
+        {
+            "day":"302",
+            "references":[
+                "Lamentations 5",
+                "Ezekiel 1",
+                "Romans 16",
+                "1 Corinthians 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"303",
+            "references":[
+                "Ezekiel 2",
+                "Ezekiel 3",
+                "1 Corinthians 2",
+                "1 Corinthians 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"304",
+            "references":[
+                "Ezekiel 4",
+                "Ezekiel 5",
+                "1 Corinthians 4",
+                "1 Corinthians 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"305",
+            "references":[
+                "Ezekiel 6",
+                "Ezekiel 7",
+                "1 Corinthians 6",
+                "1 Corinthians 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"306",
+            "references":[
+                "Ezekiel 8",
+                "Ezekiel 9",
+                "1 Corinthians 8",
+                "1 Corinthians 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"307",
+            "references":[
+                "Ezekiel 10",
+                "Ezekiel 11",
+                "1 Corinthians 10",
+                "1 Corinthians 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"308",
+            "references":[
+                "Ezekiel 12",
+                "Ezekiel 13",
+                "1 Corinthians 12",
+                "1 Corinthians 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"309",
+            "references":[
+                "Ezekiel 14",
+                "Ezekiel 15",
+                "1 Corinthians 14",
+                "1 Corinthians 15"
+            ],
+            "status":false
+        },
+        {
+            "day":"310",
+            "references":[
+                "Ezekiel 16",
+                "Ezekiel 17",
+                "1 Corinthians 16",
+                "2 Corinthians 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"311",
+            "references":[
+                "Ezekiel 18",
+                "Ezekiel 19",
+                "2 Corinthians 2",
+                "2 Corinthians 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"312",
+            "references":[
+                "Ezekiel 20",
+                "Ezekiel 21",
+                "2 Corinthians 4",
+                "2 Corinthians 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"313",
+            "references":[
+                "Ezekiel 22",
+                "Ezekiel 23",
+                "2 Corinthians 6",
+                "2 Corinthians 7"
+            ],
+            "status":false
+        },
+        {
+            "day":"314",
+            "references":[
+                "Ezekiel 24",
+                "Ezekiel 25",
+                "2 Corinthians 8",
+                "2 Corinthians 9"
+            ],
+            "status":false
+        },
+        {
+            "day":"315",
+            "references":[
+                "Ezekiel 26",
+                "Ezekiel 27",
+                "2 Corinthians 10",
+                "2 Corinthians 11"
+            ],
+            "status":false
+        },
+        {
+            "day":"316",
+            "references":[
+                "Ezekiel 28",
+                "Ezekiel 29",
+                "2 Corinthians 12",
+                "2 Corinthians 13"
+            ],
+            "status":false
+        },
+        {
+            "day":"317",
+            "references":[
+                "Ezekiel 30",
+                "Ezekiel 31",
+                "Galatians 1",
+                "Galatians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"318",
+            "references":[
+                "Ezekiel 32",
+                "Ezekiel 33",
+                "Galatians 3",
+                "Galatians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"319",
+            "references":[
+                "Ezekiel 34",
+                "Ezekiel 35",
+                "Galatians 5",
+                "Galatians 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"320",
+            "references":[
+                "Ezekiel 36",
+                "Ezekiel 37",
+                "Ephesians 1",
+                "Ephesians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"321",
+            "references":[
+                "Ezekiel 38",
+                "Ezekiel 39",
+                "Ephesians 3",
+                "Ephesians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"322",
+            "references":[
+                "Ezekiel 40",
+                "Ezekiel 41",
+                "Ephesians 5",
+                "Ephesians 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"323",
+            "references":[
+                "Ezekiel 42",
+                "Ezekiel 43",
+                "Philippians 1",
+                "Philippians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"324",
+            "references":[
+                "Ezekiel 44",
+                "Ezekiel 45",
+                "Philippians 3",
+                "Philippians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"325",
+            "references":[
+                "Ezekiel 46",
+                "Ezekiel 47",
+                "Colossians 1",
+                "Colossians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"326",
+            "references":[
+                "Ezekiel 48",
+                "Daniel 1",
+                "Colossians 3",
+                "Colossians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"327",
+            "references":[
+                "Daniel 2",
+                "Daniel 3",
+                "1 Thessalonians 1",
+                "1 Thessalonians 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"328",
+            "references":[
+                "Daniel 4",
+                "Daniel 5",
+                "1 Thessalonians 3",
+                "1 Thessalonians 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"329",
+            "references":[
+                "Daniel 6",
+                "Daniel 7",
+                "1 Thessalonians 5",
+                "2 Thessalonians 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"330",
+            "references":[
+                "Daniel 8",
+                "Daniel 9",
+                "2 Thessalonians 2",
+                "2 Thessalonians 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"331",
+            "references":[
+                "Daniel 10",
+                "Daniel 11",
+                "1 Timothy 1",
+                "1 Timothy 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"332",
+            "references":[
+                "Daniel 12",
+                "Hosea 1",
+                "1 Timothy 3",
+                "1 Timothy 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"333",
+            "references":[
+                "Hosea 2",
+                "Hosea 3",
+                "1 Timothy 5",
+                "1 Timothy 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"334",
+            "references":[
+                "Hosea 4",
+                "Hosea 5",
+                "2 Timothy 1",
+                "2 Timothy 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"335",
+            "references":[
+                "Hosea 6",
+                "Hosea 7",
+                "2 Timothy 3",
+                "2 Timothy 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"336",
+            "references":[
+                "Hosea 8",
+                "Hosea 9",
+                "Titus 1",
+                "Titus 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"337",
+            "references":[
+                "Hosea 10",
+                "Hosea 11",
+                "Titus 3",
+                "Philemon 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"338",
+            "references":[
+                "Hosea 12",
+                "Hosea 13",
+                "Hebrews 1",
+                "Hebrews 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"339",
+            "references":[
+                "Hosea 14",
+                "Joel 1",
+                "Hebrews 3",
+                "Hebrews 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"340",
+            "references":[
+                "Joel 2",
+                "Joel 3",
+                "Hebrews 5",
+                "Hebrews 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"341",
+            "references":[
+                "Amos 1",
+                "Amos 2",
+                "Hebrews 7",
+                "Hebrews 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"342",
+            "references":[
+                "Amos 3",
+                "Amos 4",
+                "Hebrews 9",
+                "Hebrews 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"343",
+            "references":[
+                "Amos 5",
+                "Amos 6",
+                "Hebrews 11",
+                "Hebrews 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"344",
+            "references":[
+                "Amos 7",
+                "Amos 8",
+                "Hebrews 13",
+                "James 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"345",
+            "references":[
+                "Amos 9",
+                "Obadiah 1",
+                "James 2",
+                "James 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"346",
+            "references":[
+                "Jonah 1",
+                "Jonah 2",
+                "James 4",
+                "James 5"
+            ],
+            "status":false
+        },
+        {
+            "day":"347",
+            "references":[
+                "Jonah 3",
+                "Jonah 4",
+                "1 Peter 1",
+                "1 Peter 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"348",
+            "references":[
+                "Micah 1",
+                "Micah 2",
+                "1 Peter 3",
+                "1 Peter 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"349",
+            "references":[
+                "Micah 3",
+                "Micah 4",
+                "1 Peter 5",
+                "2 Peter 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"350",
+            "references":[
+                "Micah 5",
+                "Micah 6",
+                "2 Peter 2",
+                "2 Peter 3"
+            ],
+            "status":false
+        },
+        {
+            "day":"351",
+            "references":[
+                "Micah 7",
+                "Nahum 1",
+                "1 John 1",
+                "1 John 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"352",
+            "references":[
+                "Nahum 2",
+                "Nahum 3",
+                "1 John 3",
+                "1 John 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"353",
+            "references":[
+                "Habakkuk 1",
+                "Habakkuk 2",
+                "1 John 5",
+                "2 John 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"354",
+            "references":[
+                "Habakkuk 3",
+                "Zephaniah 1",
+                "3 John 1",
+                "Jude 1"
+            ],
+            "status":false
+        },
+        {
+            "day":"355",
+            "references":[
+                "Zephaniah 2",
+                "Zephaniah 3",
+                "Revelation 1",
+                "Revelation 2"
+            ],
+            "status":false
+        },
+        {
+            "day":"356",
+            "references":[
+                "Haggai 1",
+                "Haggai 2",
+                "Revelation 3",
+                "Revelation 4"
+            ],
+            "status":false
+        },
+        {
+            "day":"357",
+            "references":[
+                "Zechariah 1",
+                "Zechariah 2",
+                "Revelation 5",
+                "Revelation 6"
+            ],
+            "status":false
+        },
+        {
+            "day":"358",
+            "references":[
+                "Zechariah 3",
+                "Zechariah 4",
+                "Revelation 7",
+                "Revelation 8"
+            ],
+            "status":false
+        },
+        {
+            "day":"359",
+            "references":[
+                "Zechariah 5",
+                "Zechariah 6",
+                "Revelation 9",
+                "Revelation 10"
+            ],
+            "status":false
+        },
+        {
+            "day":"360",
+            "references":[
+                "Zechariah 7",
+                "Zechariah 8",
+                "Revelation 11",
+                "Revelation 12"
+            ],
+            "status":false
+        },
+        {
+            "day":"361",
+            "references":[
+                "Zechariah 9",
+                "Zechariah 10",
+                "Revelation 13",
+                "Revelation 14"
+            ],
+            "status":false
+        },
+        {
+            "day":"362",
+            "references":[
+                "Zechariah 11",
+                "Zechariah 12",
+                "Revelation 15",
+                "Revelation 16"
+            ],
+            "status":false
+        },
+        {
+            "day":"363",
+            "references":[
+                "Zechariah 13",
+                "Zechariah 14",
+                "Revelation 17",
+                "Revelation 18"
+            ],
+            "status":false
+        },
+        {
+            "day":"364",
+            "references":[
+                "Malachi 1",
+                "Malachi 2",
+                "Revelation 19",
+                "Revelation 20"
+            ],
+            "status":false
+        },
+        {
+            "day":"365",
+            "references":[
+                "Malachi 3",
+                "Malachi 4",
+                "Revelation 21",
+                "Revelation 22"
+            ],
+            "status":false
+        }
+    ]
+}

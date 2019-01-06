@@ -7,21 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02241EAB21D3C0D200F4B7DA /* BibleStudiesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02241EAA21D3C0D200F4B7DA /* BibleStudiesParser.swift */; };
+		02241EAD21D41FA000F4B7DA /* BibleStudiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02241EAC21D41FA000F4B7DA /* BibleStudiesCollectionViewCell.swift */; };
 		02282FDE21C2745600C21E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02282FDD21C2745600C21E40 /* AppDelegate.swift */; };
-		02282FE021C2745600C21E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02282FDF21C2745600C21E40 /* ViewController.swift */; };
-		02282FE321C2745600C21E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02282FE121C2745600C21E40 /* Main.storyboard */; };
 		02282FE521C2745700C21E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02282FE421C2745700C21E40 /* Assets.xcassets */; };
 		02282FE821C2745700C21E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02282FE621C2745700C21E40 /* LaunchScreen.storyboard */; };
+		02282FF021C27B6F00C21E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02282FEF21C27B6F00C21E40 /* Main.storyboard */; };
+		02282FF421C2937400C21E40 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02282FF321C2937400C21E40 /* RoundButton.swift */; };
+		02282FFA21C2950800C21E40 /* DDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02282FF921C2950800C21E40 /* DDViewController.swift */; };
+		025F3E7221E0E8EC0038339F /* BiblePlan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F3E7021E0E8EC0038339F /* BiblePlan+CoreDataClass.swift */; };
+		025F3E7321E0E8EC0038339F /* BiblePlan+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F3E7121E0E8EC0038339F /* BiblePlan+CoreDataProperties.swift */; };
+		025F3E7721E227B20038339F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F3E7621E227B20038339F /* Theme.swift */; };
+		025F3E7921E228550038339F /* Courier.dfont in Resources */ = {isa = PBXBuildFile; fileRef = 025F3E7821E2281E0038339F /* Courier.dfont */; };
+		026CCA1521CA864800549E0F /* DailyVerseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA1421CA864800549E0F /* DailyVerseViewController.swift */; };
+		026CCA1C21CA8A9E00549E0F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA1B21CA8A9E00549E0F /* Global.swift */; };
+		026CCA2021CA8B2900549E0F /* DiscipleDevotion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA1E21CA8B2900549E0F /* DiscipleDevotion.xcdatamodeld */; };
+		026CCA2221CA8B5200549E0F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA2121CA8B5200549E0F /* Persistence.swift */; };
+		026CCA2921CA8E3700549E0F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA2821CA8E3700549E0F /* Constants.swift */; };
+		026CCA2B21CA8EE500549E0F /* GlobalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA2A21CA8EE500549E0F /* GlobalExtension.swift */; };
+		026CCA2F21CA919000549E0F /* DailyVerseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA2E21CA919000549E0F /* DailyVerseParser.swift */; };
+		026CCA3221CA96D500549E0F /* DailyVerse+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA3021CA96D500549E0F /* DailyVerse+CoreDataClass.swift */; };
+		026CCA3321CA96D500549E0F /* DailyVerse+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA3121CA96D500549E0F /* DailyVerse+CoreDataProperties.swift */; };
+		026CCA3521CA97C000549E0F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA3421CA97C000549E0F /* UIViewControllerExtension.swift */; };
+		026CCA3721CBC46600549E0F /* QuickSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA3621CBC46600549E0F /* QuickSearchViewController.swift */; };
+		026CCA3921CBDFBE00549E0F /* SearchParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA3821CBDFBE00549E0F /* SearchParser.swift */; };
+		026CCA3B21CBE8F200549E0F /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026CCA3A21CBE8F200549E0F /* SearchTableViewCell.swift */; };
+		027D87C321C4595B00537F4B /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D87C221C4595B00537F4B /* UIButton+Extension.swift */; };
+		028C141C21D4EA80008532FC /* LessonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C141B21D4EA80008532FC /* LessonCollectionViewCell.swift */; };
+		028C141E21D4EAD4008532FC /* LessonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C141D21D4EAD4008532FC /* LessonCollectionViewController.swift */; };
+		028C142021D50DA1008532FC /* LessonsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C141F21D50DA1008532FC /* LessonsParser.swift */; };
+		028C142921DC99F6008532FC /* BibleInYearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C142721DC99F6008532FC /* BibleInYearCell.swift */; };
+		028C142A21DC99F6008532FC /* BibleInYearCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 028C142821DC99F6008532FC /* BibleInYearCell.xib */; };
+		028C143021DCB511008532FC /* BibleInYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C142F21DCB511008532FC /* BibleInYearViewController.swift */; };
+		02CC24A821D0E81100EB79D0 /* VerseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CC24A721D0E81100EB79D0 /* VerseDetailViewController.swift */; };
+		02CC24AA21D0FF0300EB79D0 /* BibleStudyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CC24A921D0FF0300EB79D0 /* BibleStudyCollectionViewController.swift */; };
+		02D42A1721DE26A2003D3955 /* plan.json in Resources */ = {isa = PBXBuildFile; fileRef = 02D42A1621DE26A2003D3955 /* plan.json */; };
+		02D42A1921DE30D0003D3955 /* BiblePlanParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D42A1821DE30D0003D3955 /* BiblePlanParser.swift */; };
+		02D42A1D21DE597B003D3955 /* DayPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D42A1C21DE597B003D3955 /* DayPlanViewController.swift */; };
+		02DF872221DF5BD400A906FA /* CellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF872121DF5BD400A906FA /* CellButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02241EAA21D3C0D200F4B7DA /* BibleStudiesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleStudiesParser.swift; sourceTree = "<group>"; };
+		02241EAC21D41FA000F4B7DA /* BibleStudiesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleStudiesCollectionViewCell.swift; sourceTree = "<group>"; };
 		02282FDA21C2745600C21E40 /* Disciple's Devotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disciple's Devotion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02282FDD21C2745600C21E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02282FDF21C2745600C21E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02282FE221C2745600C21E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02282FE421C2745700C21E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02282FE721C2745700C21E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02282FE921C2745700C21E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02282FEF21C27B6F00C21E40 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		02282FF321C2937400C21E40 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		02282FF921C2950800C21E40 /* DDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDViewController.swift; sourceTree = "<group>"; };
+		025F3E7021E0E8EC0038339F /* BiblePlan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BiblePlan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		025F3E7121E0E8EC0038339F /* BiblePlan+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BiblePlan+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		025F3E7621E227B20038339F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		025F3E7821E2281E0038339F /* Courier.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; name = Courier.dfont; path = ../../../../../../../../../../System/Library/Fonts/Courier.dfont; sourceTree = "<group>"; };
+		026CCA1421CA864800549E0F /* DailyVerseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVerseViewController.swift; sourceTree = "<group>"; };
+		026CCA1B21CA8A9E00549E0F /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		026CCA1F21CA8B2900549E0F /* DiscipleDevotion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiscipleDevotion.xcdatamodel; sourceTree = "<group>"; };
+		026CCA2121CA8B5200549E0F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		026CCA2821CA8E3700549E0F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		026CCA2A21CA8EE500549E0F /* GlobalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalExtension.swift; sourceTree = "<group>"; };
+		026CCA2E21CA919000549E0F /* DailyVerseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVerseParser.swift; sourceTree = "<group>"; };
+		026CCA3021CA96D500549E0F /* DailyVerse+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyVerse+CoreDataClass.swift"; sourceTree = "<group>"; };
+		026CCA3121CA96D500549E0F /* DailyVerse+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyVerse+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		026CCA3421CA97C000549E0F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		026CCA3621CBC46600549E0F /* QuickSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchViewController.swift; sourceTree = "<group>"; };
+		026CCA3821CBDFBE00549E0F /* SearchParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParser.swift; sourceTree = "<group>"; };
+		026CCA3A21CBE8F200549E0F /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		027D87C221C4595B00537F4B /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		028C141B21D4EA80008532FC /* LessonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCollectionViewCell.swift; sourceTree = "<group>"; };
+		028C141D21D4EAD4008532FC /* LessonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCollectionViewController.swift; sourceTree = "<group>"; };
+		028C141F21D50DA1008532FC /* LessonsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsParser.swift; sourceTree = "<group>"; };
+		028C142721DC99F6008532FC /* BibleInYearCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleInYearCell.swift; sourceTree = "<group>"; };
+		028C142821DC99F6008532FC /* BibleInYearCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BibleInYearCell.xib; sourceTree = "<group>"; };
+		028C142F21DCB511008532FC /* BibleInYearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleInYearViewController.swift; sourceTree = "<group>"; };
+		02CC24A721D0E81100EB79D0 /* VerseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseDetailViewController.swift; sourceTree = "<group>"; };
+		02CC24A921D0FF0300EB79D0 /* BibleStudyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleStudyCollectionViewController.swift; sourceTree = "<group>"; };
+		02D42A1621DE26A2003D3955 /* plan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plan.json; sourceTree = "<group>"; };
+		02D42A1821DE30D0003D3955 /* BiblePlanParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiblePlanParser.swift; sourceTree = "<group>"; };
+		02D42A1C21DE597B003D3955 /* DayPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPlanViewController.swift; sourceTree = "<group>"; };
+		02DF872121DF5BD400A906FA /* CellButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +121,94 @@
 			isa = PBXGroup;
 			children = (
 				02282FDD21C2745600C21E40 /* AppDelegate.swift */,
-				02282FDF21C2745600C21E40 /* ViewController.swift */,
-				02282FE121C2745600C21E40 /* Main.storyboard */,
+				026CCA2721CA8E2100549E0F /* Constants */,
+				026CCA1321CA861400549E0F /* Controllers */,
+				026CCA1621CA89B100549E0F /* Models */,
+				026CCA1D21CA8AF700549E0F /* Persistence */,
+				02D42A1521DE2664003D3955 /* SupportFiles */,
+				02282FFB21C2952300C21E40 /* UIComponents */,
 				02282FE421C2745700C21E40 /* Assets.xcassets */,
 				02282FE621C2745700C21E40 /* LaunchScreen.storyboard */,
 				02282FE921C2745700C21E40 /* Info.plist */,
+				02282FEF21C27B6F00C21E40 /* Main.storyboard */,
 			);
 			path = "Disciple's Devotion";
+			sourceTree = "<group>";
+		};
+		02282FFB21C2952300C21E40 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				02282FF321C2937400C21E40 /* RoundButton.swift */,
+				027D87C221C4595B00537F4B /* UIButton+Extension.swift */,
+				026CCA3421CA97C000549E0F /* UIViewControllerExtension.swift */,
+				02DF872121DF5BD400A906FA /* CellButton.swift */,
+				025F3E7621E227B20038339F /* Theme.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		026CCA1321CA861400549E0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				02282FF921C2950800C21E40 /* DDViewController.swift */,
+				026CCA1421CA864800549E0F /* DailyVerseViewController.swift */,
+				026CCA3621CBC46600549E0F /* QuickSearchViewController.swift */,
+				026CCA3A21CBE8F200549E0F /* SearchTableViewCell.swift */,
+				02CC24A721D0E81100EB79D0 /* VerseDetailViewController.swift */,
+				02CC24A921D0FF0300EB79D0 /* BibleStudyCollectionViewController.swift */,
+				02241EAC21D41FA000F4B7DA /* BibleStudiesCollectionViewCell.swift */,
+				028C141B21D4EA80008532FC /* LessonCollectionViewCell.swift */,
+				028C141D21D4EAD4008532FC /* LessonCollectionViewController.swift */,
+				028C142721DC99F6008532FC /* BibleInYearCell.swift */,
+				028C142821DC99F6008532FC /* BibleInYearCell.xib */,
+				028C142F21DCB511008532FC /* BibleInYearViewController.swift */,
+				02D42A1C21DE597B003D3955 /* DayPlanViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		026CCA1621CA89B100549E0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				026CCA3021CA96D500549E0F /* DailyVerse+CoreDataClass.swift */,
+				026CCA3121CA96D500549E0F /* DailyVerse+CoreDataProperties.swift */,
+				025F3E7021E0E8EC0038339F /* BiblePlan+CoreDataClass.swift */,
+				025F3E7121E0E8EC0038339F /* BiblePlan+CoreDataProperties.swift */,
+				026CCA1B21CA8A9E00549E0F /* Global.swift */,
+				026CCA2A21CA8EE500549E0F /* GlobalExtension.swift */,
+				026CCA2E21CA919000549E0F /* DailyVerseParser.swift */,
+				026CCA3821CBDFBE00549E0F /* SearchParser.swift */,
+				02241EAA21D3C0D200F4B7DA /* BibleStudiesParser.swift */,
+				028C141F21D50DA1008532FC /* LessonsParser.swift */,
+				02D42A1821DE30D0003D3955 /* BiblePlanParser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		026CCA1D21CA8AF700549E0F /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				026CCA1E21CA8B2900549E0F /* DiscipleDevotion.xcdatamodeld */,
+				026CCA2121CA8B5200549E0F /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		026CCA2721CA8E2100549E0F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				026CCA2821CA8E3700549E0F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		02D42A1521DE2664003D3955 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				02D42A1621DE26A2003D3955 /* plan.json */,
+				025F3E7821E2281E0038339F /* Courier.dfont */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D42A1721DE26A2003D3955 /* plan.json in Resources */,
+				02282FF021C27B6F00C21E40 /* Main.storyboard in Resources */,
 				02282FE821C2745700C21E40 /* LaunchScreen.storyboard in Resources */,
+				028C142A21DC99F6008532FC /* BibleInYearCell.xib in Resources */,
 				02282FE521C2745700C21E40 /* Assets.xcassets in Resources */,
-				02282FE321C2745600C21E40 /* Main.storyboard in Resources */,
+				025F3E7921E228550038339F /* Courier.dfont in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +285,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02282FE021C2745600C21E40 /* ViewController.swift in Sources */,
+				026CCA3921CBDFBE00549E0F /* SearchParser.swift in Sources */,
+				02282FF421C2937400C21E40 /* RoundButton.swift in Sources */,
+				026CCA3221CA96D500549E0F /* DailyVerse+CoreDataClass.swift in Sources */,
+				02CC24AA21D0FF0300EB79D0 /* BibleStudyCollectionViewController.swift in Sources */,
+				028C141C21D4EA80008532FC /* LessonCollectionViewCell.swift in Sources */,
+				028C143021DCB511008532FC /* BibleInYearViewController.swift in Sources */,
+				026CCA2921CA8E3700549E0F /* Constants.swift in Sources */,
+				025F3E7321E0E8EC0038339F /* BiblePlan+CoreDataProperties.swift in Sources */,
+				026CCA2221CA8B5200549E0F /* Persistence.swift in Sources */,
+				026CCA1521CA864800549E0F /* DailyVerseViewController.swift in Sources */,
+				025F3E7221E0E8EC0038339F /* BiblePlan+CoreDataClass.swift in Sources */,
+				028C141E21D4EAD4008532FC /* LessonCollectionViewController.swift in Sources */,
+				026CCA3721CBC46600549E0F /* QuickSearchViewController.swift in Sources */,
+				026CCA1C21CA8A9E00549E0F /* Global.swift in Sources */,
+				025F3E7721E227B20038339F /* Theme.swift in Sources */,
+				026CCA3321CA96D500549E0F /* DailyVerse+CoreDataProperties.swift in Sources */,
+				026CCA2F21CA919000549E0F /* DailyVerseParser.swift in Sources */,
+				02DF872221DF5BD400A906FA /* CellButton.swift in Sources */,
+				02241EAB21D3C0D200F4B7DA /* BibleStudiesParser.swift in Sources */,
+				027D87C321C4595B00537F4B /* UIButton+Extension.swift in Sources */,
+				028C142921DC99F6008532FC /* BibleInYearCell.swift in Sources */,
+				026CCA3B21CBE8F200549E0F /* SearchTableViewCell.swift in Sources */,
+				026CCA2B21CA8EE500549E0F /* GlobalExtension.swift in Sources */,
+				02D42A1921DE30D0003D3955 /* BiblePlanParser.swift in Sources */,
+				026CCA2021CA8B2900549E0F /* DiscipleDevotion.xcdatamodeld in Sources */,
+				028C142021D50DA1008532FC /* LessonsParser.swift in Sources */,
 				02282FDE21C2745600C21E40 /* AppDelegate.swift in Sources */,
+				02D42A1D21DE597B003D3955 /* DayPlanViewController.swift in Sources */,
+				02241EAD21D41FA000F4B7DA /* BibleStudiesCollectionViewCell.swift in Sources */,
+				026CCA3521CA97C000549E0F /* UIViewControllerExtension.swift in Sources */,
+				02282FFA21C2950800C21E40 /* DDViewController.swift in Sources */,
+				02CC24A821D0E81100EB79D0 /* VerseDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		02282FE121C2745600C21E40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02282FE221C2745600C21E40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		02282FE621C2745700C21E40 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z33W2Z33C;
 				INFOPLIST_FILE = "Disciple's Devotion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Z33W2Z33C;
 				INFOPLIST_FILE = "Disciple's Devotion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +510,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		026CCA1E21CA8B2900549E0F /* DiscipleDevotion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				026CCA1F21CA8B2900549E0F /* DiscipleDevotion.xcdatamodel */,
+			);
+			currentVersion = 026CCA1F21CA8B2900549E0F /* DiscipleDevotion.xcdatamodel */;
+			path = DiscipleDevotion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 02282FD221C2745600C21E40 /* Project object */;
 }
