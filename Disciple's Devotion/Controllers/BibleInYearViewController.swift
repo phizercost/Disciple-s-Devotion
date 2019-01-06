@@ -68,7 +68,6 @@ class BibleInYearViewController: UIViewController, UITableViewDataSource, UITabl
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CheckListIdentifier") as! BibleInYearCell
-        cell.lblTitle.font = UIFont(name: "Courier", size: 15)
         cell.lblTitle.text = "Day-" + Global.shared.biblePlan[indexPath.row].day! +  ": " + Global.shared.biblePlan[indexPath.row].references!
            cell.selectionStyle = .none
         cell.chkBtn.indexPath = indexPath
@@ -77,9 +76,10 @@ class BibleInYearViewController: UIViewController, UITableViewDataSource, UITabl
             cell.backgroundColor = UIColor.lightGray
         } else {
             cell.chkBtn.isSelected = false
-            cell.backgroundColor = UIColor.clear
+            cell.backgroundColor = UIColor(red:0.87, green:0.91, blue:0.94, alpha:1.0)
         }
         cell.chkBtn.addTarget(self, action: #selector(bibleInYearCellClicked(sender:)), for: .touchUpInside)
+        
         return cell
     }
     

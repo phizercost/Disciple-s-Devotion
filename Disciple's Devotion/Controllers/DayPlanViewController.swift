@@ -20,7 +20,7 @@ class DayPlanViewController: UIViewController {
     var reference: String!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(red:0.93, green:0.95, blue:0.96, alpha:1.0)
+        self.view.backgroundColor = UIColor(red:0.87, green:0.91, blue:0.94, alpha:1.0)
         reference = reference.replacingOccurrences(of: " ", with: "%20", options: .literal, range: nil)
         getDailyScripture(ref: reference)
     }
@@ -33,6 +33,7 @@ class DayPlanViewController: UIViewController {
                 var formattedText = text!.replacingOccurrences(of: "<b>", with: "", options: .literal, range: nil)
                 formattedText = formattedText.replacingOccurrences(of: "</b>", with: "", options: .literal, range: nil)
                 self.txtView.text = formattedText
+                self.txtView.backgroundColor = UIColor(red:0.87, green:0.91, blue:0.94, alpha:1.0)
                 self.activityIndicator.stopAnimating()
                 
             } else {

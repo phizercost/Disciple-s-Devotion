@@ -20,13 +20,13 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUk-UN-X67">
-                        <rect key="frame" x="15" y="0.0" width="267" height="43.5"/>
-                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
+                        <rect key="frame" x="15" y="0.0" width="262" height="43.5"/>
+                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ox-mg-csT" customClass="CellButton" customModule="Disciple_s_Devotion" customModuleProvider="target">
-                        <rect key="frame" x="290" y="12" width="20" height="20"/>
+                        <rect key="frame" x="285" y="12" width="20" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="1RX-6t-uvK"/>
                             <constraint firstAttribute="width" constant="20" id="rSW-pK-STl"/>
@@ -42,7 +42,7 @@
                     <constraint firstItem="dUk-UN-X67" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8TS-sS-dHP"/>
                     <constraint firstAttribute="bottom" secondItem="dUk-UN-X67" secondAttribute="bottom" id="SlF-2i-Nvz"/>
                     <constraint firstItem="5Ox-mg-csT" firstAttribute="leading" secondItem="dUk-UN-X67" secondAttribute="trailing" constant="8" id="Upb-Iy-cZt"/>
-                    <constraint firstAttribute="trailing" secondItem="5Ox-mg-csT" secondAttribute="trailing" constant="10" id="c7G-uK-fAB"/>
+                    <constraint firstAttribute="trailing" secondItem="5Ox-mg-csT" secondAttribute="trailing" constant="15" id="c7G-uK-fAB"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
