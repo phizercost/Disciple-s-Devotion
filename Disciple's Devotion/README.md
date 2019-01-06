@@ -1,7 +1,7 @@
 DESCRIPTION
 ===========
 
-This app is developped with the intent of helping any Christian believer during his devotions.
+This app is developed with the intent of helping any Christian believer during his devotions.
 
 4 Main aspects:
 
@@ -14,4 +14,4 @@ This app is developped with the intent of helping any Christian believer during 
 SETUP
 =====
 
-
+Deployment Target: 12.1
